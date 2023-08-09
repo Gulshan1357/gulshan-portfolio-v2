@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import useProjectFilter from "./useProjectFilter";
 
 const ProjectsCarousel = () => {
@@ -17,16 +18,20 @@ const ProjectsCarousel = () => {
 
       <div className="carousel">
         {projectList.map((project) => (
-          <div className="carousel-item" key={project.name}>
-            <h3>{project.name}</h3>
-            <img src="/" alt="img" />
+          <div key={project.name}>
+            <div className="carousel-item">
+              <Link to={`/projectDetails/${project.name.replace(/\s+/g, "")}`}>
+                <h3>{project.name}</h3>
+                <img src="/" alt="img" />
 
-            <div className="tags">
-              {project.tags.map((tag) => (
-                <div className="tag" key={tag}>
-                  {tag}
+                <div className="tags">
+                  {project.tags.map((tag) => (
+                    <div className="tag" key={tag}>
+                      {tag}
+                    </div>
+                  ))}
                 </div>
-              ))}
+              </Link>
             </div>
           </div>
         ))}
