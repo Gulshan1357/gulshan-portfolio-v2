@@ -1,21 +1,28 @@
+import videoBgLVR from "./AssetsLVR/VideoLVR.mp4";
+import "./LacrosseVR.scss";
+
 const LacrosseVR = () => {
   return (
     <div>
       <main className="project-main">
-        <h1>Lacrosse VR</h1>
-        <h2>A Virtual Reality Game</h2>
-        <img href="/" alt=""></img>
-        <div>
-          <h4>Role</h4>
-          <p>XR Developer</p>
-        </div>
-        <div>
-          <h4>Contex</h4>
-          <p>Show VR in Indegenous Games</p>
-        </div>
-        <div>
-          <h4>Period</h4>
-          <p>Early 2023</p>
+        <div className="overlay"></div>
+        <video src={videoBgLVR} autoPlay loop muted />
+        <div className="main-content">
+          <h1>Lacrosse VR</h1>
+          <h2>A Virtual Reality Game</h2>
+          <img href="/" alt=""></img>
+          <div>
+            <h4>Role</h4>
+            <p>XR Developer</p>
+          </div>
+          <div>
+            <h4>Contex</h4>
+            <p>Show VR in Indegenous Games</p>
+          </div>
+          <div>
+            <h4>Period</h4>
+            <p>Early 2023</p>
+          </div>
         </div>
       </main>
 
