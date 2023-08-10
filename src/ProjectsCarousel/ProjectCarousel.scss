@@ -1,0 +1,23 @@
+.flicking-viewport {
+  height: 400px;
+  border: 2px solid black;
+  width: 90%;
+  overflow: hidden;
+  // transition: height 500ms;
+}
+.flicking-camera {
+  // border: 2px solid red;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1em;
+}
+.flicking-camera > .carousel-item {
+  // background-color: grey;
+  width: 250px;
+  // height: 100%;
+}
+.carousel-item-linkArea {
+  background-color: grey;
+}
