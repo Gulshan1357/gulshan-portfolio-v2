@@ -3,8 +3,13 @@ import { useEffect, useState } from "react";
 const projectData = [
   {
     name: "Current Portfolio Website",
-    period: "Mid 2023",
+    period: "August 2023",
     tags: ["UI", "Front-End", "Full-Stack", "React", "Figma"],
+  },
+  {
+    name: "Final Project for Computer Graphics and Animation Course",
+    period: "July 2023",
+    tags: ["Unity", "Shader Programming", "C#"],
   },
   {
     name: "LacrosseVR",

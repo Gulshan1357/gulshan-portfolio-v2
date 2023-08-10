@@ -7,7 +7,7 @@ const ProjectsCarousel = () => {
   const [projectList] = useProjectFilter(tag);
 
   return (
-    <article>
+    <article id="projects">
       <h1>PROJECTS</h1>
       <div className="filters">
         <button onClick={() => setTag("All")}>All</button>

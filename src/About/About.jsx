@@ -15,7 +15,7 @@ const Introduction = () => {
         </div>
       </main>
 
-      <section className="aboutMe">
+      <section className="aboutMe" id="about">
         <h1>About Me</h1>
         <p>
           Software developer with a focus on eXtended Reality applications for
