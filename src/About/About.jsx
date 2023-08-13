@@ -1,22 +1,51 @@
+import "./About.scss";
+import heroImage from "./heroImage.png";
+
+import { TypeAnimation } from "react-type-animation";
+
 const Introduction = () => {
   return (
-    <header>
-      <main className="main container">
-        <div className="iam">
-          <h1>I AM</h1>
-          <h2>Gulshan Sankhyan</h2>
-          <h3>
-            <span>Front-End</span>
-            <span>Developer</span>
-          </h3>
+    <header className="container">
+      <main className="main">
+        <div className="introduction">
+          <h1 className="faded-heading faded-heading--dark">I AM</h1>
+          <div className="introduction-text">
+            <h2>Gulshan Sankhyan</h2>
+            <h3>
+              <span>
+                <TypeAnimation
+                  sequence={[
+                    "Front-End",
+                    600,
+                    "Full-Stack",
+                    600,
+                    "UI",
+                    700,
+                    "AR",
+                    700,
+                    "VR",
+                    700,
+                    "XR",
+                    700,
+                  ]}
+                  speed={10}
+                  repeat={Infinity}
+                />
+              </span>
+              <span>Developer</span>
+            </h3>
+          </div>
         </div>
-        <div className="heroImage">
-          <img src="/" alt="/" />
+        <div className="hero-image">
+          <img
+            src={heroImage}
+            alt="Gulshan's head shot modified using Stable Diffusion AI"
+          />
         </div>
       </main>
 
       <section className="aboutMe" id="about">
-        <h1>About Me</h1>
+        <h1 className="faded-heading">About Me</h1>
         <p>
           Software developer with a focus on eXtended Reality applications for
           platforms such as Virtual Reality and Mixed Reality headsets and
