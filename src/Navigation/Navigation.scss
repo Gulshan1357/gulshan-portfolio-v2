@@ -44,6 +44,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .nav-items {
+    flex-direction: column;
+  }
+
   .nav-links {
     flex-direction: column;
     height: auto;
@@ -51,10 +55,12 @@
 
   .nav-item:nth-child(1) {
     flex: 1;
+    order: 2;
   }
 
-  .nav-link:nth-child(1) {
-    margin-top: 2rem;
+  .nav-item:nth-child(2) {
+    // border: 1px solid red;
+    margin-left: auto;
   }
 
   .nav-link {

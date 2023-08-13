@@ -9,8 +9,8 @@ import ProjectsCarousel from "./ProjectsCarousel/ProjectsCarousel";
 const App = () => {
   return (
     <div className="App">
+      <Navigation />
       <div className="container">
-        <Navigation />
         <Hero />
         <About />
         <ProjectsCarousel />
