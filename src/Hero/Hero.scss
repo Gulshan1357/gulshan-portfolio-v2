@@ -1,0 +1,90 @@
+@import "src/_variables.scss";
+
+.main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.hero-image {
+  order: 1;
+  margin: 0 auto;
+}
+
+.introduction {
+  order: 2;
+  text-align: center;
+  flex: 1;
+}
+
+.hero-image img {
+  border-radius: 50%;
+  height: clamp(5rem, 80vw, 20rem);
+  width: clamp(5rem, 80vw, 20rem);
+  object-fit: cover;
+}
+
+.introduction-text {
+  margin-top: clamp(2.5rem, 10vw, 8rem);
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: clamp(1.6rem, 5vw, 3rem);
+    margin-top: clamp(3.5rem, 10vw, 8rem);
+  }
+
+  h3 {
+    font-size: clamp(1.2rem, 3.2vw, 2rem);
+    margin-top: 0;
+    color: $primary-orange;
+
+    span:nth-child(2) {
+      color: $primary-purple;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .main {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    padding-top: 0;
+  }
+
+  .hero-image {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 auto;
+  }
+
+  .introduction {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-image img {
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .faded-heading {
+    margin-top: clamp(7rem, 18vw, 10rem);
+  }
+
+  .introduction-text {
+    margin-top: clamp(13rem, 32vw, 20rem);
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+    h3 {
+      text-align: right;
+      padding-right: min(3vw, 3rem);
+    }
+  }
+}
