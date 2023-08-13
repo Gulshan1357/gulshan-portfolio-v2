@@ -1,7 +1,7 @@
 const Introduction = () => {
   return (
     <header>
-      <main className="main">
+      <main className="main container">
         <div className="iam">
           <h1>I AM</h1>
           <h2>Gulshan Sankhyan</h2>

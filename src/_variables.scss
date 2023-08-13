@@ -1,0 +1,21 @@
+// Primary Colors
+$primary-black: #0a1111;
+$primary-white: #eff0f0;
+$primary-black: #0a1111;
+$primary-purple: #7e3b96;
+$primary-orange: #ef7a44;
+
+//Secondary Colors
+$secondary-black-light: #0f1616;
+$secondary-black-dark: #090f0f;
+$secondary-grey: #616767;
+
+//Gradients
+$gradient-dark: linear-gradient(
+  180deg,
+  #090f0f 0%,
+  #1a1c1c 99.99%,
+  #1a1d1d 100%
+);
+
+$gradient-dark--purple: linear-gradient(90deg, #0f1616 0%, #7e3b96 100%);
