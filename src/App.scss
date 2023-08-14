@@ -47,3 +47,10 @@ h1 {
   z-index: 0;
   margin-top: clamp(3rem, 8vw, 6rem);
 }
+
+button {
+  background: $primary-purple;
+  border: none;
+  color: $primary-white;
+  padding: 0.5rem 2rem;
+}
