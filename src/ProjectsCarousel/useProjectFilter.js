@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+import PeekCPW from "../ProjectDetail/CurrentPortfolioWebsite/Assets/Peek.png";
 
 const projectData = [
   {
     name: "Current Portfolio Website",
     period: "August 2023",
     tags: ["UI", "Front-End", "Full-Stack", "React", "Figma"],
+    peek: PeekCPW,
   },
   {
     name: "Final Project for Computer Graphics and Animation Course",
@@ -37,7 +39,7 @@ const projectData = [
     tags: ["Front-End", "Angular", "JavaScript"],
   },
   {
-    name: "Predictive modelling tool to more effectively transition patients from hospital",
+    name: "Predictive Modelling Tool to More Effectively Transition Patients from Hospital",
     period: "January to August 2022",
     tags: ["Design", "UX", "MATLAB"],
   },
@@ -67,7 +69,7 @@ const projectData = [
     tags: ["UI", "Webflow", "Figma"],
   },
   {
-    name: "Hospitaly",
+    name: "Hospitality",
     period: "2019",
     tags: ["Front-End", "Full-Stack", "ASP.NET", "JavaScript", "C#", "SQL"],
   },
