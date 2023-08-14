@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <main className="main">
+    <main className="main container">
       <div className="introduction">
         <h1 className="faded-heading faded-heading--dark">I AM</h1>
         <div className="introduction-text">

@@ -44,10 +44,6 @@ h1 {
 .faded-heading {
   color: $primary-purple;
   opacity: 0.2;
-  z-index: -1;
-}
-
-.faded-heading--dark {
-  color: $secondary-black-dark;
-  opacity: 1;
+  z-index: 0;
+  margin-top: clamp(3rem, 8vw, 6rem);
 }

@@ -18,6 +18,12 @@
   flex: 1;
 }
 
+.faded-heading--dark {
+  color: $secondary-black-dark;
+  opacity: 1;
+  margin-top: 0;
+}
+
 .hero-image img {
   border-radius: 50%;
   height: clamp(5rem, 80vw, 20rem);
@@ -72,7 +78,7 @@
     object-fit: contain;
   }
 
-  .faded-heading {
+  .faded-heading--dark {
     margin-top: clamp(7rem, 18vw, 10rem);
   }
 

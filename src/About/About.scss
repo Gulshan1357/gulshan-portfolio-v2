@@ -1,0 +1,65 @@
+@import "src/_variables.scss";
+
+.aboutMe {
+  background: $gradient-dark;
+}
+
+.content-offset {
+  padding: 6rem 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.aboutMe-main-text {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  margin-bottom: clamp(1rem, 8vw, 7rem);
+}
+
+.skill {
+  background-color: $primary-black;
+  padding: 4vw;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: rgba(126, 59, 150, 0.3) 0px 5px 15px;
+  // box-shadow: rgba(126, 59, 150, 0.3) 0px 20px 30px -10px;
+
+  h5 {
+    color: $primary-purple;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    font-size: 1.3125rem;
+  }
+  h6 {
+    color: $primary-orange;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .content-offset {
+    padding-top: clamp(5rem, 16vw, 11.5rem);
+    width: min(60rem, 80%);
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    box-shadow: rgba(126, 59, 150, 0.3) 0px 5px 15px;
+  }
+
+  .skill {
+    background-color: $primary-black;
+    margin: 0;
+    box-shadow: none;
+    padding: clamp(0.2rem, 3vw, 3.5rem);
+    display: grid;
+    grid-template-rows: minmax(0, 0.85fr) minmax(0, 0.5fr) minmax(0, 1.3fr);
+  }
+}
