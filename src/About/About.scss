@@ -4,7 +4,7 @@
   background: $gradient-dark;
 }
 
-.content-offset {
+.aboutMe .content-offset {
   padding: 6rem 0;
   margin: 0 auto;
   width: 90%;
@@ -43,7 +43,7 @@
 }
 
 @media screen and (min-width: 500px) {
-  .content-offset {
+  .aboutMe .content-offset {
     padding-top: clamp(5rem, 16vw, 11.5rem);
     width: min(60rem, 80%);
   }
