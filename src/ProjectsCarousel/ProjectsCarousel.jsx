@@ -11,32 +11,43 @@ const ProjectsCarousel = () => {
   const [projectList] = useProjectFilter(tag);
 
   return (
-    <article id="projects">
-      <h1>PROJECTS</h1>
-      <div className="filters">
-        <button onClick={() => setTag("All")}>All</button>
-        <button onClick={() => setTag("Front-End")}>Front-End</button>
-        <button onClick={() => setTag("XR")}>XR</button>
-        <button onClick={() => setTag("Design")}>Design</button>
-      </div>
+    <article id="projects" className="projects">
+      <div className="container">
+        <h1 className="faded-heading">PROJECTS</h1>
+        <div className="content-offset">
+          <div className="filters">
+            <button className="btn" onClick={() => setTag("All")}>
+              All
+            </button>
+            <button className="btn" onClick={() => setTag("Front-End")}>
+              Front-End
+            </button>
+            <button className="btn" onClick={() => setTag("XR")}>
+              XR
+            </button>
+            <button className="btn" onClick={() => setTag("Design")}>
+              Design
+            </button>
+          </div>
 
-      <Flicking
-        className="carousel"
-        horizontal={true}
-        renderOnlyVisible={true}
-        align={"prev"}
-        moveType={"freeScroll"}
-        bound={true}
-        interruptable={true}
-        bounce={"20%"}
-      >
-        {projectList.map((project, index) => (
-          <div key={index} className="carousel-item">
-            <Link to={`/projectDetails/${project.name.replace(/\s+/g, "")}`}>
-              <div className="carousel-item-linkArea">
+          <Flicking
+            className="carousel"
+            horizontal={true}
+            renderOnlyVisible={true}
+            align={"prev"}
+            moveType={"freeScroll"}
+            bound={true}
+            interruptable={true}
+            bounce={"20%"}
+          >
+            {projectList.map((project, index) => (
+              <div key={index} className="carousel-item">
+                <Link
+                  to={`/projectDetails/${project.name.replace(/\s+/g, "")}`}
+                >
+                  <img src={project.peek} alt="img" />
+                </Link>
                 <h3>{project.name}</h3>
-                <img src="/" alt="img" />
-
                 <div className="tags">
                   {project.tags.map((tag) => (
                     <div className="tag" key={tag}>
@@ -45,10 +56,10 @@ const ProjectsCarousel = () => {
                   ))}
                 </div>
               </div>
-            </Link>
-          </div>
-        ))}
-      </Flicking>
+            ))}
+          </Flicking>
+        </div>
+      </div>
     </article>
   );
 };
