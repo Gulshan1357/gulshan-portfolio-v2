@@ -5,11 +5,22 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  background: linear-gradient(
+    to right,
+    $secondary-black-light,
+    $secondary-black-light,
+    $secondary-black-dark,
+    $secondary-black-light
+  );
 }
 
 .hero-image {
   order: 1;
   margin: 0 auto;
+  img {
+    filter: brightness(80%) contrast(90%)
+      drop-shadow(0px 0px 50px rgba(126, 59, 150, 0.5));
+  }
 }
 
 .introduction {
@@ -79,11 +90,11 @@
   }
 
   .faded-heading--dark {
-    margin-top: clamp(7rem, 18vw, 10rem);
+    margin-top: clamp(8.5rem, 20vw, 20rem);
   }
 
   .introduction-text {
-    margin-top: clamp(13rem, 32vw, 20rem);
+    margin-top: clamp(13rem, 34vw, 30rem);
 
     h2 {
       margin-bottom: 0.5rem;

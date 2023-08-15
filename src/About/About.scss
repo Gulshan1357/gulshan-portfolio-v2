@@ -1,7 +1,14 @@
 @import "src/_variables.scss";
 
 .aboutMe {
-  background: $gradient-dark;
+  // background: $gradient-dark;
+  background: linear-gradient(
+    to top,
+    $secondary-black-dark,
+    $secondary-black-light,
+    $secondary-black-light,
+    $secondary-black-dark
+  );
 }
 
 .aboutMe .content-offset {
@@ -44,7 +51,7 @@
 
 @media screen and (min-width: 500px) {
   .aboutMe .content-offset {
-    padding-top: clamp(5rem, 16vw, 11.5rem);
+    padding-top: clamp(8rem, 24vw, 18rem);
     width: min(60rem, 80%);
   }
 

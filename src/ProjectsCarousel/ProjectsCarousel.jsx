@@ -39,6 +39,7 @@ const ProjectsCarousel = () => {
             bound={true}
             interruptable={true}
             bounce={"20%"}
+            preventClickOnDrag={true}
           >
             {projectList.map((project, index) => (
               <div key={index} className="carousel-item">

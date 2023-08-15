@@ -1,6 +1,14 @@
 @import "src/_variables.scss";
 
 .projects {
+  background: linear-gradient(
+    to top,
+    $secondary-black-light,
+    $secondary-black-dark,
+    $secondary-black-dark,
+    $secondary-black-light
+  );
+
   .content-offset {
     padding-top: clamp(8rem, 25vw, 18rem);
     margin: 0 auto;
