@@ -1,11 +1,28 @@
+@import "src/_variables.scss";
+
 .contact {
-  overflow: hidden;
-}
-.contact-icons {
-  display: flex;
-  justify-content: space-around;
-}
-.contact-icon {
-  color: #7f7a81;
-  font-size: 2rem;
+  background: $gradient-dark;
+
+  .content-offset {
+    padding-top: clamp(8rem, 30vw, 20rem);
+    padding-bottom: clamp(2rem, 10vw, 18rem);
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contact-icon {
+    // color: #7f7a81;
+    color: $secondary-grey;
+    font-size: clamp(2rem, 10vw, 6rem);
+    transition: color 0.3s;
+    &:link,
+    &:visited,
+    &:focus,
+    &:hover,
+    &:active {
+      color: $primary-grey;
+    }
+  }
 }
