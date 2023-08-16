@@ -34,6 +34,15 @@
   list-style-type: none;
   font-weight: 500;
   transition: color 0.3;
+  button {
+    all: unset;
+    background: none;
+    // color: $primary-grey;
+    font-size: inherit;
+    font-weight: 500;
+    border: none;
+    text-transform: uppercase;
+  }
   &:link,
   &:visited,
   &:focus,

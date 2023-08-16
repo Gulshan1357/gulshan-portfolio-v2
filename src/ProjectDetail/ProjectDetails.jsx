@@ -9,7 +9,7 @@ const ProjectDetails = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navigation isModified="true" />
       {(() => {
         switch (projectName) {
           case "LacrosseVR":
