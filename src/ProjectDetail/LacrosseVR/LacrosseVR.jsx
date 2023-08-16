@@ -1,4 +1,4 @@
-import videoBgLVR from "./AssetsLVR/VideoLVR.mp4";
+import videoBgLVR from "./Assets/VideoLVR.mp4";
 import "./LacrosseVR.scss";
 
 const LacrosseVR = () => {
