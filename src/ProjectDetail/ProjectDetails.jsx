@@ -4,6 +4,8 @@ import Navigation from "../Navigation/Navigation";
 import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioWebsite";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
 
+import "./ProjectDetails.scss";
+
 const ProjectDetails = () => {
   const { projectName } = useParams();
 
