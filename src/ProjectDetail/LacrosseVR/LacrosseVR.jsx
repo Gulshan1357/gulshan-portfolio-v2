@@ -1,10 +1,16 @@
 import LightGallery from "lightgallery/react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
+import "lightgallery/scss/lg-autoplay.scss";
+import "lightgallery/scss/lg-fullscreen.scss";
+import "lightgallery/scss/lg-video.scss";
 import "lightgallery/scss/lg-zoom.scss";
 import "lightgallery/scss/lightgallery.scss";
 
-import lgThumbnail from "lightgallery/plugins/thumbnail";
+// import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgAutoplay from "lightgallery/plugins/autoplay";
+import lgFullscreen from "lightgallery/plugins/fullscreen";
+import lgVideo from "lightgallery/plugins/video";
 import lgZoom from "lightgallery/plugins/zoom";
 
 import SS1 from "./Assets/SS (1).png";
@@ -17,6 +23,7 @@ import videoBgLVR from "./Assets/VideoLVR.mp4";
 // import "./LacrosseVR.scss";
 
 const LacrosseVR = () => {
+  // const LIGHTGALLERY_LICENCE = process.env.LIGHTGALLERY_LICENCE;
   return (
     <div>
       <main className="project-main">
@@ -105,9 +112,14 @@ const LacrosseVR = () => {
                   <div className="right-half-images">
                     <LightGallery
                       speed={500}
-                      plugins={[lgZoom]}
+                      plugins={[lgZoom, lgFullscreen, lgAutoplay, lgVideo]}
                       enableThumbSwipe={true}
                       loadYouTubeThumbnail={true}
+                      licenseKey={
+                        import.meta.env.MODE === "development"
+                          ? "x"
+                          : import.meta.env.LIGHTGALLERY_LICENCE
+                      }
                     >
                       <a href={SS2}>
                         <img alt="img1" src={SS2} />
