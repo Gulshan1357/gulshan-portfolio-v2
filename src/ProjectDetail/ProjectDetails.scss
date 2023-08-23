@@ -2,6 +2,7 @@
 
 .project-main {
   height: 100vh;
+
   .overlay {
     position: absolute;
     width: 100%;
@@ -125,6 +126,10 @@
 .container-half {
   .faded-heading {
     margin-top: clamp(2rem, 3vw, 3rem);
+  }
+
+  .highlight {
+    color: $primary-orange;
   }
 
   .content-offset {
