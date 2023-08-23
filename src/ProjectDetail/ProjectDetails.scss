@@ -1,5 +1,9 @@
 @import "src/_variables.scss";
 
+.highlight {
+  color: $primary-orange;
+}
+
 .project-main {
   height: 100vh;
 
@@ -81,6 +85,10 @@
 .container-full {
   background-color: $primary-black;
 
+  p {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+  }
+
   .faded-heading {
     margin-top: clamp(2rem, 3vw, 3rem);
   }
@@ -128,8 +136,8 @@
     margin-top: clamp(2rem, 3vw, 3rem);
   }
 
-  .highlight {
-    color: $primary-orange;
+  p {
+    font-size: clamp(1rem, 2vw, 1.3rem);
   }
 
   .content-offset {
@@ -165,7 +173,8 @@
       a {
         margin-right: min(2vw, 1rem);
       }
-      img {
+      img,
+      video {
         width: clamp(4rem, 40vw, 13rem);
         object-fit: cover;
         box-shadow: rgba(126, 59, 150, 0.6) 0px 0px 25px;
@@ -221,8 +230,9 @@
 
         .right-half-images {
           text-align: center;
-          img {
-            width: clamp(2rem, 20vw, 10rem);
+          img,
+          video {
+            width: clamp(2rem, 20vw, 15rem);
             object-fit: cover;
           }
         }
