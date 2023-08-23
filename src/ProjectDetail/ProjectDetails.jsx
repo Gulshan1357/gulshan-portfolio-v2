@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import Navigation from "../Navigation/Navigation";
 import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioWebsite";
+import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectforComputerGraphicsandAnimationCourse/FinalProjectforComputerGraphicsandAnimationCourse";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
 
 import "./ProjectDetails.scss";
@@ -18,6 +19,8 @@ const ProjectDetails = () => {
             return <LacrosseVR />;
           case "CurrentPortfolioWebsite":
             return <CurrentPortfolioWebsite />;
+          case "FinalProjectforComputerGraphicsandAnimationCourse":
+            return <FinalProjectforComputerGraphicsandAnimationCourse />;
           default:
             return <p>No project found</p>;
         }
