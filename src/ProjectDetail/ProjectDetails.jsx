@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import Navigation from "../Navigation/Navigation";
+import ARTranscriptionandTranslation from "./ARTranscriptionandTranslation/ARTranscriptionandTranslation";
 import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioWebsite";
 import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectforComputerGraphicsandAnimationCourse/FinalProjectforComputerGraphicsandAnimationCourse";
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
@@ -27,6 +28,8 @@ const ProjectDetails = () => {
             return <FloorcanInsights />;
           case "TelePresence":
             return <TelePresence />;
+          case "ARTranscriptionandTranslation":
+            return <ARTranscriptionandTranslation />;
           default:
             return <p>No project found</p>;
         }
