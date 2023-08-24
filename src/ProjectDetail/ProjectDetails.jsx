@@ -5,6 +5,7 @@ import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioW
 import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectforComputerGraphicsandAnimationCourse/FinalProjectforComputerGraphicsandAnimationCourse";
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
+import TelePresence from "./TelePresence/TelePresence";
 
 import "./ProjectDetails.scss";
 
@@ -24,6 +25,8 @@ const ProjectDetails = () => {
             return <FinalProjectforComputerGraphicsandAnimationCourse />;
           case "FloorcanInsights":
             return <FloorcanInsights />;
+          case "TelePresence":
+            return <TelePresence />;
           default:
             return <p>No project found</p>;
         }
