@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import LightGallery from "lightgallery/react";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 import "lightgallery/scss/lg-autoplay.scss";
 import "lightgallery/scss/lg-fullscreen.scss";
