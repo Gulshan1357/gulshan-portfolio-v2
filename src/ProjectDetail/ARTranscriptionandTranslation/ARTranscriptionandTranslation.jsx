@@ -23,20 +23,20 @@ const ARTranscriptionandTranslation = () => {
         <img src={V3} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
-            <h1>Current Portfolio</h1>
-            <h2>A React Based Web Application</h2>
+            <h1>AR Transcription and Translation</h1>
+            <h2>An Angular Web Application</h2>
             <div className="main-footer">
               <div className="main-footer-content">
                 <h4>Role</h4>
-                <p>Full-Stack Developer</p>
+                <p>Front-End Developer</p>
               </div>
               <div className="main-footer-content">
                 <h4>Contex</h4>
-                <p>Show my skills</p>
+                <p>Bridge Language gap</p>
               </div>
               <div className="main-footer-content">
                 <h4>Period</h4>
-                <p>August 2023</p>
+                <p>Late 2022</p>
               </div>
             </div>
           </div>
