@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import LightGallery from "lightgallery/react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
@@ -7,20 +8,13 @@ import "lightgallery/scss/lg-video.scss";
 import "lightgallery/scss/lg-zoom.scss";
 import "lightgallery/scss/lightgallery.scss";
 
-// import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgAutoplay from "lightgallery/plugins/autoplay";
 import lgFullscreen from "lightgallery/plugins/fullscreen";
 import lgVideo from "lightgallery/plugins/video";
 import lgZoom from "lightgallery/plugins/zoom";
 
-import SS1 from "./Assets/SS (1).png";
-import SS2 from "./Assets/SS (2).png";
-import SS3 from "./Assets/SS (3).png";
-import SS4 from "./Assets/SS (4).png";
-import SS5 from "./Assets/SS (5).png";
-import SS6 from "./Assets/SS (6).png";
 import videoBgLVR from "./Assets/VideoLVR.mp4";
-// import "./LacrosseVR.scss";
+import VideoThumb from "./Assets/Videothumb.gif";
 
 const LacrosseVR = () => {
   // const LIGHTGALLERY_LICENCE = process.env.LIGHTGALLERY_LICENCE;
@@ -56,9 +50,24 @@ const LacrosseVR = () => {
           <h1 className="faded-heading">Why?</h1>
           <div className="content-offset">
             <p>
-              The problem was Lorem ipsum. THe problem was Lorem ipsum and this.
-              THe problem was Lorem ipsum and this. THe problem was Lorem ipsum
-              and this.
+              Our team&apos;s objective was to demonstrate the potential of
+              Virtual Reality at the North American Indigenous Games 2023
+              (NAIG), scheduled for July 2023 in Nova Scotia. Aligned with the
+              event&apos;s theme, we chose to develop a project centered around
+              the sport of lacrosse. The project was structured into two
+              distinct segments: firstly, an exploration of lacrosse&apos;s
+              historical roots, and secondly, an interactive experience allowing
+              users to engage in various lacrosse games.
+            </p>
+            <br />
+            <p>
+              Although I departed from the team in April, I was an active
+              contributor. During my involvement, I specifically focused on
+              <span className="highlight">
+                {" "}
+                creating and testing the shooting mechanism{" "}
+              </span>
+              for the game.
             </p>
           </div>
         </div>
@@ -67,46 +76,37 @@ const LacrosseVR = () => {
       <section className="development">
         <article className="container-half dev-phase">
           <div className="container">
-            <h1 className="faded-heading">Branding</h1>
+            <h1 className="faded-heading">&lt;dev&gt;</h1>
             <div className="content-offset">
               <div className="half-cols">
                 <div className="left-half">
                   <p>
-                    Decided to go with these colors. Because of ease of reasons.
+                    During the development phase, I harnessed the capabilities
+                    of Unity&apos;s new XR Interaction Toolkit to emulate both
+                    single-handed and double-handed throwing actions within the
+                    VR environment. I introduced{" "}
+                    <span className="highlight">
+                      {" "}
+                      two distinct throwing mechanisms{" "}
+                    </span>{" "}
+                    to enhance the user experience.
                   </p>
-                </div>
-                <div className="right-half">
-                  <div className="right-half-colors">
-                    <div
-                      style={{ backgroundColor: "#7e3b96" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "#7e3b96" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "#7e3b96" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "#7e3b96" }}
-                      className="right-half-color"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article className="container-half dev-phase">
-          <div className="container">
-            <h1 className="faded-heading">Design</h1>
-            <div className="content-offset">
-              <div className="half-cols">
-                <div className="left-half">
-                  <p>LoFI and HiFI Wireframes. Any prototyping changes. etc.</p>
+                  <br />
+                  <p>
+                    In the initial approach, the user{" "}
+                    <span className="highlight"> triggers </span>the ball&apos;s
+                    release by pressing a designated button. In contrast, the
+                    second method operates by detecting the{" "}
+                    <span className="highlight">
+                      {" "}
+                      user&apos;s throwing motion
+                    </span>
+                    . Specifically, the ball is released once the user&apos;s
+                    throwing motion generates angular velocity that surpasses a
+                    predefined threshold. This dynamic interaction adds a layer
+                    of realism and engagement to the VR experience, enhancing
+                    the immersion of the lacrosse game.
+                  </p>
                 </div>
                 <div className="right-half">
                   <div className="right-half-images">
@@ -121,23 +121,11 @@ const LacrosseVR = () => {
                           : import.meta.env.LIGHTGALLERY_LICENCE
                       }
                     >
-                      <a href={SS2}>
-                        <img alt="img1" src={SS2} />
-                      </a>
-                      <a href={SS3}>
-                        <img alt="img1" src={SS3} />
-                      </a>
-                      <a href={SS4}>
-                        <img alt="img1" src={SS4} />
-                      </a>
-                      <a href={SS1}>
-                        <img alt="img1" src={SS1} />
-                      </a>
-                      <a href={SS5}>
-                        <img alt="img1" src={SS5} />
-                      </a>
-                      <a href={SS6}>
-                        <img alt="img1" src={SS6} />
+                      <a
+                        data-src="https://vimeo.com/857632800"
+                        data-sub-html="<h4>Lacrosse VR</h4><p>Testing shooting Mechanism</p>"
+                      >
+                        <img src={VideoThumb} alt="Click here to play video" />
                       </a>
                     </LightGallery>
                   </div>
@@ -153,14 +141,16 @@ const LacrosseVR = () => {
           <h1 className="faded-heading">Links</h1>
           <div className="content-offset">
             <div className="btns">
-              <button className="btn">
-                External Link
-                <FaExternalLinkAlt />
-              </button>
-              <button className="btn">
-                GitHub
-                <FaGithub />
-              </button>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/posts/design-de-plume_ddp-x-rbc-10th-north-american-indigenous-activity-7095403465618706433-unh_?utm_source=share&utm_medium=member_desktop"
+              >
+                <button className="btn">
+                  LinkedIn Post by Design de Plume Inc.
+                  <FaExternalLinkAlt />
+                </button>
+              </a>
             </div>
           </div>
         </div>
