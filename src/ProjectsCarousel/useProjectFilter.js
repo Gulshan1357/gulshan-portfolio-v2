@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import PeekTT from "../ProjectDetail/ARTranscriptionandTranslation/Assets/V3.png";
 import PeekCPW from "../ProjectDetail/CurrentPortfolioWebsite/Assets/Peek.png";
 import Peek6CG3 from "../ProjectDetail/FinalProjectforComputerGraphicsandAnimationCourse/Assets/Peek.png";
+import PeekFI from "../ProjectDetail/FloorcanInsights/Assets/censored-1726364.jpg";
 import PeekHos from "../ProjectDetail/Hospitality/Assets/Peek.jpg";
 import PeekHA from "../ProjectDetail/HumanAnatomyAR/Assets/Peek.png";
 import PeekLVR from "../ProjectDetail/LacrosseVR/Assets/Peek.png";
@@ -35,6 +36,7 @@ const projectData = [
     name: "Floorcan Insights",
     period: "Early 2023",
     tags: ["UI", "Front-End", "React", "JavaScript", "Figma"],
+    peek: PeekFI,
   },
   {
     name: "TelePresence",
