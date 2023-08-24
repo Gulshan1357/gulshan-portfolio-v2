@@ -1,16 +1,8 @@
-// import LightGallery from "lightgallery/react";
-// import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-
 import "lightgallery/scss/lg-autoplay.scss";
 import "lightgallery/scss/lg-fullscreen.scss";
 import "lightgallery/scss/lg-video.scss";
 import "lightgallery/scss/lg-zoom.scss";
 import "lightgallery/scss/lightgallery.scss";
-
-// import lgAutoplay from "lightgallery/plugins/autoplay";
-// import lgFullscreen from "lightgallery/plugins/fullscreen";
-// import lgVideo from "lightgallery/plugins/video";
-// import lgZoom from "lightgallery/plugins/zoom";
 
 import HeroImage from "./Assets/censored-1726364.jpg";
 
@@ -76,6 +68,21 @@ const FloorcanInsights = () => {
               </span>
               .
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="container-full">
+        <div className="container">
+          <h1 className="faded-heading">Links</h1>
+          <div className="content-offset">
+            <div className="btns">
+              <a target="_blank" rel="noopener noreferrer" href="/">
+                <button className="btn" disabled>
+                  Live Link unavailable due to privacy concerns
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </section>

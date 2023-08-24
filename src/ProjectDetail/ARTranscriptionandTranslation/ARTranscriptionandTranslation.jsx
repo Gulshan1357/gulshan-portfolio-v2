@@ -1,5 +1,4 @@
 import LightGallery from "lightgallery/react";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 import "lightgallery/scss/lg-autoplay.scss";
 import "lightgallery/scss/lg-fullscreen.scss";
@@ -111,7 +110,7 @@ const ARTranscriptionandTranslation = () => {
             <div className="btns">
               <a target="_blank" rel="noopener noreferrer" href="/">
                 <button className="btn" disabled>
-                  Link unavailable as it is an internal product
+                  Link unavailable as it is an internal RBC product
                 </button>
               </a>
             </div>
