@@ -7,6 +7,7 @@ import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectfor
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
 import TelePresence from "./TelePresence/TelePresence";
+import WealthManagement from "./WealthManagement/WealthManagement";
 
 import "./ProjectDetails.scss";
 
@@ -30,6 +31,8 @@ const ProjectDetails = () => {
             return <TelePresence />;
           case "ARTranscriptionandTranslation":
             return <ARTranscriptionandTranslation />;
+          case "WealthManagement":
+            return <WealthManagement />;
           default:
             return <p>No project found</p>;
         }
