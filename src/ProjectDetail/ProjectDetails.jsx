@@ -10,6 +10,7 @@ import Predictive from "./PredictiveModellingTooltoMoreEffectivelyTransitionPati
 import "./ProjectDetails.scss";
 import StudyBuddyApp from "./StudyBuddyApp/StudyBuddyApp";
 import TelePresence from "./TelePresence/TelePresence";
+import VRWhiteboardApp from "./VRWhiteboardApp/VRWhiteboardApp";
 import WealthManagement from "./WealthManagement/WealthManagement";
 
 const ProjectDetails = () => {
@@ -38,6 +39,8 @@ const ProjectDetails = () => {
             return <Predictive />;
           case "StudyBuddyApp":
             return <StudyBuddyApp />;
+          case "VRWhiteboardApp":
+            return <VRWhiteboardApp />;
           default:
             return <p>No project found</p>;
         }
