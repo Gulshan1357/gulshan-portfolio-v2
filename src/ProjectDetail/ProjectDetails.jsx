@@ -7,10 +7,10 @@ import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectfor
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
 import Predictive from "./PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital";
+import "./ProjectDetails.scss";
+import StudyBuddyApp from "./StudyBuddyApp/StudyBuddyApp";
 import TelePresence from "./TelePresence/TelePresence";
 import WealthManagement from "./WealthManagement/WealthManagement";
-
-import "./ProjectDetails.scss";
 
 const ProjectDetails = () => {
   const { projectName } = useParams();
@@ -36,6 +36,8 @@ const ProjectDetails = () => {
             return <WealthManagement />;
           case "PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital":
             return <Predictive />;
+          case "StudyBuddyApp":
+            return <StudyBuddyApp />;
           default:
             return <p>No project found</p>;
         }
