@@ -30,20 +30,20 @@ const VRWhiteboardApp = () => {
         <img src={SS1} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
-            <h1>Current Portfolio</h1>
-            <h2>A React Based Web Application</h2>
+            <h1>VR Whiteboard</h1>
+            <h2>A Unity Based Application</h2>
             <div className="main-footer">
               <div className="main-footer-content">
                 <h4>Role</h4>
-                <p>Full-Stack Developer</p>
+                <p>Unity Developer</p>
               </div>
               <div className="main-footer-content">
                 <h4>Contex</h4>
-                <p>Show my skills</p>
+                <p>Final Deliverable for &quot;AR, VR & MR&quot; course</p>
               </div>
               <div className="main-footer-content">
                 <h4>Period</h4>
-                <p>August 2023</p>
+                <p>Early 2022</p>
               </div>
             </div>
           </div>
@@ -55,12 +55,12 @@ const VRWhiteboardApp = () => {
           <h1 className="faded-heading">Why?</h1>
           <div className="content-offset">
             <p>
-              Why did I decide to craft a new portfolio website? Well, my
-              previous website had aged considerably and fell short of
-              effectively presenting my current prowess and accomplishments as a
-              developer. With this fresh and innovative website, I not only
-              address these shortcomings but also delve further to encompass a
-              broader array of my capabilities and experiences.
+              A unity application which simulates a real-world classroom with
+              the help of a Virtual Reality Whiteboard. This project served as
+              the culminating assignment for the &quot;Augmented Reality,
+              Virtual Reality and Mixed Reality&quot; course and garnered me an
+              exceptional A+ grade. The task entailed proposing a project idea
+              and executing it within a compressed two-week timeframe.
             </p>
           </div>
         </div>
@@ -74,13 +74,14 @@ const VRWhiteboardApp = () => {
               <div className="half-cols">
                 <div className="left-half">
                   <p>
-                    I evaluated three potential avenues for developing this
-                    website. While WebFlow and Framer offered impressive
-                    development speed, I ultimately settled on
-                    <span className="highlight"> React</span>. This choice
-                    stemmed from my desire to establish a more robust and
-                    descriptive &quot;Projects&quot; section and enhance the
-                    overall project viewing experience for users.
+                    The project consist of{" "}
+                    <span className="highlight">4 drawing tools:</span>
+                    <ul>
+                      <li>Color Picker</li>
+                      <li>Pen (Marker)</li>
+                      <li>Pencil (Marker)</li>
+                      <li>Eraser</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="right-half">
