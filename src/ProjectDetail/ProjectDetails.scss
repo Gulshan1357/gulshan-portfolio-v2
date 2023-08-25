@@ -90,10 +90,19 @@
   }
 }
 
-.container-full {
+.container-full:nth-child(odd) {
   background-color: $primary-black;
+}
 
+.container-full:nth-child(even) {
+  background-color: $secondary-black-light;
+}
+
+.container-full {
   p {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+  }
+  .large-li {
     font-size: clamp(1rem, 2vw, 1.3rem);
   }
 

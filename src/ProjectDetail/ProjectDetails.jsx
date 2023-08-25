@@ -6,6 +6,7 @@ import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioW
 import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectforComputerGraphicsandAnimationCourse/FinalProjectforComputerGraphicsandAnimationCourse";
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
+import Predictive from "./PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital";
 import TelePresence from "./TelePresence/TelePresence";
 import WealthManagement from "./WealthManagement/WealthManagement";
 
@@ -33,6 +34,8 @@ const ProjectDetails = () => {
             return <ARTranscriptionandTranslation />;
           case "WealthManagement":
             return <WealthManagement />;
+          case "PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital":
+            return <Predictive />;
           default:
             return <p>No project found</p>;
         }
