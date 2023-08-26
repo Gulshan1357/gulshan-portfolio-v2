@@ -7,6 +7,7 @@ import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectfor
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
 import HumanAnatomyAR from "./HumanAnatomyAR/HumanAnatomyAR";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
+import MyFirstPortfolioWebsite from "./MyFirstPortfolioWebsite/MyFirstPortfolioWebsite";
 import OneStockMed from "./OneStockMed/OneStockMed";
 import Predictive from "./PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital";
 import "./ProjectDetails.scss";
@@ -47,6 +48,8 @@ const ProjectDetails = () => {
             return <HumanAnatomyAR />;
           case "OneStockMed":
             return <OneStockMed />;
+          case "MyFirstPortfolioWebsite":
+            return <MyFirstPortfolioWebsite />;
           default:
             return <p>No project found</p>;
         }
