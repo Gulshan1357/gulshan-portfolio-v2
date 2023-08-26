@@ -22,7 +22,6 @@ const MyFirstPortfolioWebsite = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBgLVR} autoPlay loop muted /> */}
         <img src={MainBg} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
@@ -71,7 +70,7 @@ const MyFirstPortfolioWebsite = () => {
                     Why did I opt for these particular colors? Frankly, I
                     don&apos;t really have an answer for that. Maybe, I just
                     felt like it at that time. Or maybe they goes well with my
-                    sweater.
+                    sweater &#128517;.
                   </p>
                 </div>
                 <div className="right-half">

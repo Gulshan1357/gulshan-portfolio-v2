@@ -35,7 +35,7 @@ const HumanAnatomyAR = () => {
               </div>
               <div className="main-footer-content">
                 <h4>Contex</h4>
-                <p>Deliverable for &quot;AR, VR & MR&quot; course</p>
+                <p>Deliverable for &prime;AR, VR & MR&prime; course</p>
               </div>
               <div className="main-footer-content">
                 <h4>Period</h4>
@@ -51,8 +51,8 @@ const HumanAnatomyAR = () => {
           <h1 className="faded-heading">Why?</h1>
           <div className="content-offset">
             <p>
-              As part of the &quot;Augmented Reality, Virtual Reality & Mixed
-              Reality&quot; course, I engaged in a mini project centered on
+              As part of the &prime;Augmented Reality, Virtual Reality & Mixed
+              Reality&prime; course, I engaged in a mini project centered on
               Augmented Reality through smartphone cameras. The fundamental
               objective of this application was to offer a three-dimensional
               perspective of the organs depicted within a biology textbook.

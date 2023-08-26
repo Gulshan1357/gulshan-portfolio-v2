@@ -21,7 +21,6 @@ const WealthManagement = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBGWM} autoPlay loop muted /> */}
         <img src={HeroSS} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
@@ -30,15 +29,15 @@ const WealthManagement = () => {
             <div className="main-footer">
               <div className="main-footer-content">
                 <h4>Role</h4>
-                <p>Full-Stack Developer</p>
+                <p>Unity Developer</p>
               </div>
               <div className="main-footer-content">
                 <h4>Contex</h4>
-                <p>Show my skills</p>
+                <p>Encourage interest in Investing</p>
               </div>
               <div className="main-footer-content">
                 <h4>Period</h4>
-                <p>August 2023</p>
+                <p>Late 2022 to Early 2023</p>
               </div>
             </div>
           </div>

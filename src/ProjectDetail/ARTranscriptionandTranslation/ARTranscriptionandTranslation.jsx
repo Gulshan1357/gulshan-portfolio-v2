@@ -19,7 +19,6 @@ const ARTranscriptionandTranslation = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBgLVR} autoPlay loop muted /> */}
         <img src={V3} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
@@ -69,8 +68,11 @@ const ARTranscriptionandTranslation = () => {
                 <div className="left-half">
                   <p>
                     Centered on enhancing the app&apos;s user interface, my role
-                    was to ensure its alignment with the dynamic AR and VR
-                    environments, guaranteeing user-friendliness. This involved
+                    was to ensure its{" "}
+                    <span className="highlight">
+                      alignment with the hardware of the AR glasses
+                    </span>
+                    , guaranteeing user-friendliness. This also involved
                     maintaining coherence with RBC&apos;s design scheme for a
                     cohesive theme.
                   </p>

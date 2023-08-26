@@ -27,7 +27,6 @@ const StudyBuddyApp = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBgLVR} autoPlay loop muted /> */}
         <img src={MainBG} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
@@ -58,10 +57,10 @@ const StudyBuddyApp = () => {
             <p>
               A Ruby on Rails application that facilitates student-to-student
               study partnerships. This project served as the culminating
-              assignment for the Prototyping Web Applications course and
-              garnered an exceptional A+ grade. The task entailed proposing a
-              project idea and executing it within a compressed two-week
-              timeframe.{" "}
+              assignment for the &prime;Prototyping Web Applications&prime;
+              course and garnered an exceptional A+ grade. The task entailed
+              proposing a project idea and executing it within a compressed
+              two-week timeframe.{" "}
               <span className="highlight">Learning goal include:</span>
               <ul>
                 <li>How to build a full-stack web applicaaiton.</li>

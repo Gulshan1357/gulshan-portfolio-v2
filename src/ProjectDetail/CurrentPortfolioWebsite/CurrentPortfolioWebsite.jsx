@@ -25,7 +25,6 @@ const CurrentPortfolioWebsite = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBgLVR} autoPlay loop muted /> */}
         <img src={HeroBG} alt="Background GIF" />
         <div className="container">
           <div className="main-content">

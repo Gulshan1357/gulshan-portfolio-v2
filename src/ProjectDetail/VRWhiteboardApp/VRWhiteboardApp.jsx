@@ -26,7 +26,6 @@ const VRWhiteboardApp = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBgLVR} autoPlay loop muted /> */}
         <img src={SS1} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
@@ -39,7 +38,7 @@ const VRWhiteboardApp = () => {
               </div>
               <div className="main-footer-content">
                 <h4>Contex</h4>
-                <p>Final Deliverable for &quot;AR, VR & MR&quot; course</p>
+                <p>Final Deliverable for &prime;AR, VR & MR&prime; course</p>
               </div>
               <div className="main-footer-content">
                 <h4>Period</h4>
@@ -57,8 +56,8 @@ const VRWhiteboardApp = () => {
             <p>
               A unity application which simulates a real-world classroom with
               the help of a Virtual Reality Whiteboard. This project served as
-              the culminating assignment for the &quot;Augmented Reality,
-              Virtual Reality and Mixed Reality&quot; course and garnered me an
+              the culminating assignment for the &prime;Augmented Reality,
+              Virtual Reality and Mixed Reality&prime; course and garnered me an
               exceptional A+ grade. The task entailed proposing a project idea
               and executing it within a compressed two-week timeframe.
             </p>

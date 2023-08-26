@@ -4,14 +4,13 @@ import "lightgallery/scss/lg-video.scss";
 import "lightgallery/scss/lg-zoom.scss";
 import "lightgallery/scss/lightgallery.scss";
 
-import HeroImage from "./Assets/censored-1726364.jpg";
+import HeroImage from "./Assets/unavailable-image.jpg";
 
 const FloorcanInsights = () => {
   return (
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        {/* <video src={videoBgLVR} autoPlay loop muted /> */}
         <img src={HeroImage} alt="Background GIF" />
         <div className="container">
           <div className="main-content">
