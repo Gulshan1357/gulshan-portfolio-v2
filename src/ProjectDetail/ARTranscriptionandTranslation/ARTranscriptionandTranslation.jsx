@@ -59,6 +59,21 @@ const ARTranscriptionandTranslation = () => {
         </div>
       </section>
 
+      <section className="container-full">
+        <div className="container">
+          <h1 className="faded-heading">Tools & Tech</h1>
+          <div className="content-offset">
+            <p>
+              Developement
+              <ul>
+                <li>Angular</li>
+                <li>Angular Material</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="development">
         <article className="container-half dev-phase">
           <div className="container">

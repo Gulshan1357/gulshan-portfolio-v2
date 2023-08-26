@@ -64,6 +64,39 @@ const CurrentPortfolioWebsite = () => {
         </div>
       </section>
 
+      <article className="container-half dev-phase">
+        <div className="container">
+          <h1 className="faded-heading">Tools & Tech</h1>
+          <div className="content-offset">
+            <div className="half-cols">
+              <div className="left-half">
+                <div className="left-half-text">
+                  <p>
+                    Design
+                    <ul>
+                      <li>Pen & Paper</li>
+                      <li>Figma</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div className="right-half">
+                <div className="right-half-text">
+                  <p>
+                    Development
+                    <ul>
+                      <li>SCSS</li>
+                      <li>JavaScript</li>
+                      <li>React</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
       <section className="development">
         <article className="container-half dev-phase">
           <div className="container">

@@ -246,6 +246,13 @@
       grid-auto-flow: column;
       grid-auto-columns: 1fr;
 
+      .left-half {
+        .left-half-text {
+          margin: 0 auto;
+          width: fit-content;
+        }
+      }
+
       .right-half {
         .right-half-colors {
           justify-content: flex-end;
@@ -261,6 +268,11 @@
             width: clamp(2rem, 20vw, 15rem);
             object-fit: cover;
           }
+        }
+
+        .right-half-text {
+          margin: 0 auto;
+          width: fit-content;
         }
       }
     }

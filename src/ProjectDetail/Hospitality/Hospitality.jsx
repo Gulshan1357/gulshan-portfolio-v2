@@ -63,6 +63,25 @@ const Hospitality = () => {
         </div>
       </section>
 
+      <section className="container-full">
+        <div className="container">
+          <h1 className="faded-heading">Tools & Tech</h1>
+          <div className="content-offset">
+            <p>
+              Developement
+              <ul>
+                <li>ASP.NET</li>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>Javascript, jQuery</li>
+                <li>C#</li>
+                <li>SQL Server Management Studio</li>
+                <li>Ajax</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="development">
         <article className="container-half dev-phase">
           <div className="container">
