@@ -5,6 +5,7 @@ import ARTranscriptionandTranslation from "./ARTranscriptionandTranslation/ARTra
 import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioWebsite";
 import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectforComputerGraphicsandAnimationCourse/FinalProjectforComputerGraphicsandAnimationCourse";
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
+import Hospitality from "./Hospitality/Hospitality";
 import HumanAnatomyAR from "./HumanAnatomyAR/HumanAnatomyAR";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
 import MyFirstPortfolioWebsite from "./MyFirstPortfolioWebsite/MyFirstPortfolioWebsite";
@@ -50,6 +51,8 @@ const ProjectDetails = () => {
             return <OneStockMed />;
           case "MyFirstPortfolioWebsite":
             return <MyFirstPortfolioWebsite />;
+          case "Hospitality":
+            return <Hospitality />;
           default:
             return <p>No project found</p>;
         }
