@@ -5,6 +5,7 @@ import ARTranscriptionandTranslation from "./ARTranscriptionandTranslation/ARTra
 import CurrentPortfolioWebsite from "./CurrentPortfolioWebsite/CurrentPortfolioWebsite";
 import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectforComputerGraphicsandAnimationCourse/FinalProjectforComputerGraphicsandAnimationCourse";
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
+import HumanAnatomyAR from "./HumanAnatomyAR/HumanAnatomyAR";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
 import Predictive from "./PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital";
 import "./ProjectDetails.scss";
@@ -41,6 +42,8 @@ const ProjectDetails = () => {
             return <StudyBuddyApp />;
           case "VRWhiteboardApp":
             return <VRWhiteboardApp />;
+          case "HumanAnatomyAR":
+            return <HumanAnatomyAR />;
           default:
             return <p>No project found</p>;
         }
