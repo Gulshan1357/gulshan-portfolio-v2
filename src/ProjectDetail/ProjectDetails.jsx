@@ -1,4 +1,7 @@
 import { useParams } from "react-router-dom";
+
+import ScrollToTop from "./scrollToTop";
+
 import Contact from "../Contact/Contact";
 import Navigation from "../Navigation/Navigation";
 import ARTranscriptionandTranslation from "./ARTranscriptionandTranslation/ARTranscriptionandTranslation";
@@ -22,6 +25,7 @@ const ProjectDetails = () => {
 
   return (
     <div>
+      <ScrollToTop />
       <Navigation isModified="true" />
       {(() => {
         switch (projectName) {
