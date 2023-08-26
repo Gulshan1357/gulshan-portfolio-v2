@@ -7,6 +7,7 @@ import FinalProjectforComputerGraphicsandAnimationCourse from "./FinalProjectfor
 import FloorcanInsights from "./FloorcanInsights/FloorcanInsights";
 import HumanAnatomyAR from "./HumanAnatomyAR/HumanAnatomyAR";
 import LacrosseVR from "./LacrosseVR/LacrosseVR";
+import OneStockMed from "./OneStockMed/OneStockMed";
 import Predictive from "./PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital";
 import "./ProjectDetails.scss";
 import StudyBuddyApp from "./StudyBuddyApp/StudyBuddyApp";
@@ -44,6 +45,8 @@ const ProjectDetails = () => {
             return <VRWhiteboardApp />;
           case "HumanAnatomyAR":
             return <HumanAnatomyAR />;
+          case "OneStockMed":
+            return <OneStockMed />;
           default:
             return <p>No project found</p>;
         }

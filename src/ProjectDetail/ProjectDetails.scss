@@ -179,11 +179,16 @@
     .right-half-colors {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
       .right-half-color {
         width: clamp(4rem, 20vw, 7rem);
         height: clamp(4rem, 20vw, 7rem);
         border-radius: 50%;
+        margin: 0.1rem;
+      }
+      .right-half-logo {
+        width: clamp(4rem, 20vw, 7rem);
+        height: clamp(4rem, 20vw, 7rem);
         margin: 0.1rem;
       }
     }
