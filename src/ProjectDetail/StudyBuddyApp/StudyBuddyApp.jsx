@@ -62,19 +62,23 @@ const StudyBuddyApp = () => {
               proposing a project idea and executing it within a compressed
               two-week timeframe.{" "}
               <span className="highlight">Learning goal include:</span>
-              <ul>
-                <li>How to build a full-stack web applicaaiton.</li>
-                <li>How to handle database.</li>
-                <li>How to manage different routes</li>
-                <li>Active Storage in Rails</li>
-                <li>Nested Resources in Rails</li>
-                <li>
-                  Create Authentication and Authorisation functionality from
-                  scratch
-                </li>
-                <li>How to add API functionality to a web application</li>
-              </ul>
             </p>
+            <ul>
+              <li className="large-li">
+                How to build a full-stack web applicaaiton.
+              </li>
+              <li className="large-li">How to handle database.</li>
+              <li className="large-li">How to manage different routes</li>
+              <li className="large-li">Active Storage in Rails</li>
+              <li className="large-li">Nested Resources in Rails</li>
+              <li className="large-li">
+                Create Authentication and Authorisation functionality from
+                scratch
+              </li>
+              <li className="large-li">
+                How to add API functionality to a web application
+              </li>
+            </ul>
           </div>
         </div>
       </section>

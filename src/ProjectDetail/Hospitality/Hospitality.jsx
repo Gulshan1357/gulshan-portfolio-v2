@@ -67,17 +67,15 @@ const Hospitality = () => {
         <div className="container">
           <h1 className="faded-heading">Tools & Tech</h1>
           <div className="content-offset">
-            <p>
-              Developement
-              <ul>
-                <li>ASP.NET</li>
-                <li>HTML, CSS, Bootstrap</li>
-                <li>Javascript, jQuery</li>
-                <li>C#</li>
-                <li>SQL Server Management Studio</li>
-                <li>Ajax</li>
-              </ul>
-            </p>
+            <p>Developement</p>
+            <ul>
+              <li className="large-li">ASP.NET</li>
+              <li className="large-li">HTML, CSS, Bootstrap</li>
+              <li className="large-li">Javascript, jQuery</li>
+              <li className="large-li">C#</li>
+              <li className="large-li">SQL Server Management Studio</li>
+              <li className="large-li">Ajax</li>
+            </ul>
           </div>
         </div>
       </section>

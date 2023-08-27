@@ -68,15 +68,17 @@ const HumanAnatomyAR = () => {
             <div className="content-offset">
               <div className="half-cols">
                 <div className="left-half">
-                  <p>
-                    User Actions:
-                    <ul>
-                      <li>Scan Human Organs using phone camera</li>
-                      <li>Select organs from Menu</li>
-                      <li>Rotate and Scale organs</li>
-                      <li>Adjust Background music and Text-to-Speech volume</li>
-                    </ul>
-                  </p>
+                  <p>User Actions:</p>
+                  <ul>
+                    <li className="large-li">
+                      Scan Human Organs using phone camera
+                    </li>
+                    <li className="large-li">Select organs from Menu</li>
+                    <li className="large-li">Rotate and Scale organs</li>
+                    <li className="large-li">
+                      Adjust Background music and Text-to-Speech volume
+                    </li>
+                  </ul>
                 </div>
                 <div className="right-half">
                   <div className="right-half-images">

@@ -55,21 +55,21 @@ const FinalProjectforComputerGraphicsandAnimationCourse = () => {
               The journey through the Computer Graphics and Animation course
               (course code: 6CG3) has introduced me to a captivating array of
               techniques, including:
-              <ul>
-                <li>stencil buffers</li>
-                <li>diffuse, emission & normals mapping</li>
-                <li>world reflection</li>
-                <li>rim lighting</li>
-                <li>
-                  diverse lighting models (ranging from Lambert and Blinn Phong
-                  to PBR and Specular PBR)
-                </li>
-                <li>logical cutoffs</li>
-                <li>vertex and fragment shaders</li>
-                <li>animation principles</li>
-                <li>transparent and blending effects</li>
-              </ul>
             </p>
+            <ul>
+              <li className="large-li">stencil buffers</li>
+              <li className="large-li">diffuse, emission & normals mapping</li>
+              <li className="large-li">world reflection</li>
+              <li className="large-li">rim lighting</li>
+              <li className="large-li">
+                diverse lighting models (ranging from Lambert and Blinn Phong to
+                PBR and Specular PBR)
+              </li>
+              <li className="large-li">logical cutoffs</li>
+              <li className="large-li">vertex and fragment shaders</li>
+              <li className="large-li">animation principles</li>
+              <li className="large-li">transparent and blending effects</li>
+            </ul>
             <br />
             <p>
               This project is a

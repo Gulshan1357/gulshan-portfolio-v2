@@ -78,40 +78,40 @@ const WealthManagement = () => {
                 <div className="left-half">
                   <p>
                     In this project, I made three significant contributions:
-                    <ul>
-                      <li>
-                        <span className="highlight">
-                          {" "}
-                          Welcome Screen Animation:{" "}
-                        </span>
-                        Building upon RBC&apos;s initial logo animation, I
-                        introduced my own animation that smoothly glided atop
-                        the existing logo. This animation was synchronized with
-                        the emergence of new text, creating a captivating visual
-                        transition.
-                      </li>
-                      <br />
-                      <li>
-                        <span className="highlight">
-                          {" "}
-                          UI Design and Development:{" "}
-                        </span>
-                        I designed and developed both the Simple and In-depth
-                        views for scanned objects in form of floating card in
-                        Unity.
-                      </li>
-                      <br />
-                      <li>
-                        <span className="highlight">
-                          {" "}
-                          Data Graph Integration:{" "}
-                        </span>
-                        Additionally, I integrated a data graph feature that
-                        facilitated a comparative analysis of RBC&apos;s
-                        funds&apos; values against popular index funds.
-                      </li>
-                    </ul>
                   </p>
+                  <ul>
+                    <li className="large-li">
+                      <span className="highlight">
+                        {" "}
+                        Welcome Screen Animation:{" "}
+                      </span>
+                      Building upon RBC&apos;s initial logo animation, I
+                      introduced my own animation that smoothly glided atop the
+                      existing logo. This animation was synchronized with the
+                      emergence of new text, creating a captivating visual
+                      transition.
+                    </li>
+                    <br />
+                    <li className="large-li">
+                      <span className="highlight">
+                        {" "}
+                        UI Design and Development:{" "}
+                      </span>
+                      I designed and developed both the Simple and In-depth
+                      views for scanned objects in form of floating card in
+                      Unity.
+                    </li>
+                    <br />
+                    <li className="large-li">
+                      <span className="highlight">
+                        {" "}
+                        Data Graph Integration:{" "}
+                      </span>
+                      Additionally, I integrated a data graph feature that
+                      facilitated a comparative analysis of RBC&apos;s
+                      funds&apos; values against popular index funds.
+                    </li>
+                  </ul>
                 </div>
                 <div className="right-half">
                   <div className="right-half-images">

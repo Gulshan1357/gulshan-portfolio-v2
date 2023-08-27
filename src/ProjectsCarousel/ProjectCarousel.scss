@@ -45,15 +45,17 @@
   .carousel-item {
     display: grid;
     text-align: center;
-    // grid-template-rows: 2fr 0.5fr 0.5fr;
+    box-shadow: rgba(126, 59, 150, 0.1) 0px 0px 25px;
     a {
       text-decoration: none;
       max-width: 100%;
       max-height: 10rem;
+      margin-bottom: 1.5rem;
     }
 
     h3 {
       color: $primary-grey;
+      margin-bottom: 0.5rem;
     }
 
     img {

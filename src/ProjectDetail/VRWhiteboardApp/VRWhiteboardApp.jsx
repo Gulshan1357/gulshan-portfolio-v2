@@ -75,13 +75,13 @@ const VRWhiteboardApp = () => {
                   <p>
                     The project consist of{" "}
                     <span className="highlight">4 drawing tools:</span>
-                    <ul>
-                      <li>Color Picker</li>
-                      <li>Pen (Marker)</li>
-                      <li>Pencil (Marker)</li>
-                      <li>Eraser</li>
-                    </ul>
                   </p>
+                  <ul>
+                    <li className="large-li">Color Picker</li>
+                    <li className="large-li">Pen (Marker)</li>
+                    <li className="large-li">Pencil (Marker)</li>
+                    <li className="large-li">Eraser</li>
+                  </ul>
                 </div>
                 <div className="right-half">
                   <div className="right-half-images">
