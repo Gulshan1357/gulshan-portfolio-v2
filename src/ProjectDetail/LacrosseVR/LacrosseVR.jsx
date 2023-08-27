@@ -125,7 +125,11 @@ const LacrosseVR = () => {
                         data-src="https://vimeo.com/857632800"
                         data-sub-html="<h4>Lacrosse VR</h4><p>Testing shooting Mechanism</p>"
                       >
-                        <img src={VideoThumb} alt="Click here to play video" />
+                        <img
+                          src={VideoThumb}
+                          loading="lazy"
+                          alt="Click here to play video"
+                        />
                       </a>
                     </LightGallery>
                   </div>

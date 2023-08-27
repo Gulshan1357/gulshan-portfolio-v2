@@ -25,7 +25,7 @@ const CurrentPortfolioWebsite = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={HeroBG} alt="Background GIF" />
+        <img src={HeroBG} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>Current Portfolio</h1>
@@ -172,21 +172,31 @@ const CurrentPortfolioWebsite = () => {
                       }
                     >
                       <a href={HomeLo}>
-                        <img alt="Home Page Low Fidelity" src={HomeLo} />
+                        <img
+                          loading="lazy"
+                          alt="Home Page Low Fidelity"
+                          src={HomeLo}
+                        />
                       </a>
                       <a href={ProjectLo}>
                         <img
                           alt="ProjectDetails Page Low Fidelity"
+                          loading="lazy"
                           src={ProjectLo}
                         />
                       </a>
                       <a href={HomeHi}>
-                        <img alt="Home Page High Fidelity" src={HomeHi} />
+                        <img
+                          alt="Home Page High Fidelity"
+                          loading="lazy"
+                          src={HomeHi}
+                        />
                       </a>
 
                       <a href={ProjectHi}>
                         <img
                           alt="ProjectDetails Page High Fidelity"
+                          loading="lazy"
                           src={ProjectHi}
                         />
                       </a>
@@ -227,11 +237,16 @@ const CurrentPortfolioWebsite = () => {
                       }
                     >
                       <a href={GPort1}>
-                        <img alt="Final Portfolio's Home Page" src={GPort1} />
+                        <img
+                          alt="Final Portfolio's Home Page"
+                          loading="lazy"
+                          src={GPort1}
+                        />
                       </a>
                       <a href={GPort2}>
                         <img
                           alt="Final Portfolio's ProjectDetails Page"
+                          loading="lazy"
                           src={GPort2}
                         />
                       </a>

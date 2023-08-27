@@ -25,7 +25,7 @@ const OneStockMed = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBG} alt="Background GIF" />
+        <img src={MainBG} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>OneStockMed</h1>
@@ -114,6 +114,7 @@ const OneStockMed = () => {
                       <img
                         src={LogoB}
                         className="right-half-logo"
+                        loading="lazy"
                         alt="Blue Logo"
                       />
                     </div>
@@ -121,6 +122,7 @@ const OneStockMed = () => {
                       <img
                         src={LogoW}
                         className="right-half-logo"
+                        loading="lazy"
                         alt="White Logo"
                       />
                     </div>
@@ -159,6 +161,7 @@ const OneStockMed = () => {
                         <img
                           alt="Home Page Low Fidelity"
                           className="img--same--height"
+                          loading="lazy"
                           src={LoFi}
                         />
                       </a>
@@ -166,6 +169,7 @@ const OneStockMed = () => {
                         <img
                           alt="Home Page Hi Fidelity"
                           className="img--same--height"
+                          loading="lazy"
                           src={HiFi}
                         />
                       </a>
@@ -206,11 +210,16 @@ const OneStockMed = () => {
                       <a href={Desktop}>
                         <img
                           alt="Desktop View of the Landing Page"
+                          loading="lazy"
                           src={Desktop}
                         />
                       </a>
                       <a href={Mobile}>
-                        <img alt="Mobile View of the Page" src={Mobile} />
+                        <img
+                          alt="Mobile View of the Page"
+                          loading="lazy"
+                          src={Mobile}
+                        />
                       </a>
                     </LightGallery>
                   </div>

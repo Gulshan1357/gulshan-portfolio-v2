@@ -19,7 +19,7 @@ const ARTranscriptionandTranslation = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={V3} alt="Background GIF" />
+        <img src={V3} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>AR Transcription and Translation</h1>
@@ -106,10 +106,10 @@ const ARTranscriptionandTranslation = () => {
                       }
                     >
                       <a href={V1}>
-                        <img alt="Initial UI" src={V1} />
+                        <img alt="Initial UI" loading="lazy" src={V1} />
                       </a>
                       <a href={V3}>
-                        <img alt="Final UI" src={V3} />
+                        <img alt="Final UI" loading="lazy" src={V3} />
                       </a>
                     </LightGallery>
                   </div>

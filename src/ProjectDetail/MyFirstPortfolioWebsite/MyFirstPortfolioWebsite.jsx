@@ -22,7 +22,7 @@ const MyFirstPortfolioWebsite = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBg} alt="Background GIF" />
+        <img src={MainBg} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>My First Portfolio Website</h1>
@@ -121,10 +121,18 @@ const MyFirstPortfolioWebsite = () => {
                       }
                     >
                       <a href={LoFi}>
-                        <img alt="Home Page Low Fidelity" src={LoFi} />
+                        <img
+                          alt="Home Page Low Fidelity"
+                          loading="lazy"
+                          src={LoFi}
+                        />
                       </a>
                       <a href={HiFi}>
-                        <img alt="Home Page Hi Fidelity" src={HiFi} />
+                        <img
+                          alt="Home Page Hi Fidelity"
+                          loading="lazy"
+                          src={HiFi}
+                        />
                       </a>
                     </LightGallery>
                   </div>
@@ -162,7 +170,11 @@ const MyFirstPortfolioWebsite = () => {
                       }
                     >
                       <a href={Desk}>
-                        <img alt="Desktop View of the Home Page" src={Desk} />
+                        <img
+                          alt="Desktop View of the Home Page"
+                          loading="lazy"
+                          src={Desk}
+                        />
                       </a>
                     </LightGallery>
                   </div>

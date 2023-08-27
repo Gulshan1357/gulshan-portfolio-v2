@@ -112,17 +112,23 @@ const FinalProjectforComputerGraphicsandAnimationCourse = () => {
                       }
                     >
                       <a href={Demo1}>
-                        <img alt="Final Portfolio's Home Page" src={Demo1} />
+                        <img
+                          loading="lazy"
+                          alt="Final Portfolio's Home Page"
+                          src={Demo1}
+                        />
                       </a>
                       <a href={Demo2}>
                         <img
                           alt="Final Portfolio's ProjectDetails Page"
+                          loading="lazy"
                           src={Demo2}
                         />
                       </a>
                       <a href={Demo4}>
                         <img
                           alt="Final Portfolio's ProjectDetails Page"
+                          loading="lazy"
                           src={Demo4}
                         />
                       </a>

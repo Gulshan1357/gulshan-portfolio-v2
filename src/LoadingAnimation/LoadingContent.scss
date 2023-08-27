@@ -1,0 +1,14 @@
+.loading-pane {
+  text-align: center;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-top: clamp(2rem, 10vw, 18rem);
+  padding-bottom: clamp(2rem, 10vw, 18rem);
+
+  p {
+    margin: 2rem;
+  }
+}

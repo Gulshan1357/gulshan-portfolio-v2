@@ -23,7 +23,7 @@ const HumanAnatomyAR = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={SS5} alt="Background GIF" />
+        <img src={SS5} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>Human Anatomy AR</h1>
@@ -92,19 +92,23 @@ const HumanAnatomyAR = () => {
                       }
                     >
                       <a href={SS1}>
-                        <img alt="Main Menu" src={SS1} />
+                        <img alt="Main Menu" loading="lazy" src={SS1} />
                       </a>
                       <a href={SS2}>
-                        <img alt="Settings Menu" src={SS2} />
+                        <img alt="Settings Menu" loading="lazy" src={SS2} />
                       </a>
                       <a href={SS3}>
-                        <img alt="Heart" src={SS3} />
+                        <img alt="Heart" loading="lazy" src={SS3} />
                       </a>
                       <a href={SS4}>
-                        <img alt="Lungs" src={SS4} />
+                        <img alt="Lungs" loading="lazy" src={SS4} />
                       </a>
                       <a href={SS5}>
-                        <img alt="Object Tracking using AR camera" src={SS5} />
+                        <img
+                          alt="Object Tracking using AR camera"
+                          loading="lazy"
+                          src={SS5}
+                        />
                       </a>
                     </LightGallery>
                   </div>

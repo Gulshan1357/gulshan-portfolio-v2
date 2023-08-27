@@ -26,7 +26,7 @@ const VRWhiteboardApp = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={SS1} alt="Background GIF" />
+        <img src={SS1} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>VR Whiteboard</h1>
@@ -97,28 +97,36 @@ const VRWhiteboardApp = () => {
                       }
                     >
                       <a href={SS1}>
-                        <img alt="Introdution to VR Whiteboard" src={SS1} />
+                        <img
+                          alt="Introdution to VR Whiteboard"
+                          loading="lazy"
+                          src={SS1}
+                        />
                       </a>
                       <a href={SS2}>
-                        <img alt="Color Picker" src={SS2} />
+                        <img alt="Color Picker" loading="lazy" src={SS2} />
                       </a>
                       <a href={SS3}>
-                        <img alt="Pen" src={SS3} />
+                        <img alt="Pen" loading="lazy" src={SS3} />
                       </a>
                       <a href={SS4}>
-                        <img alt="Pencil" src={SS4} />
+                        <img alt="Pencil" loading="lazy" src={SS4} />
                       </a>
                       <a href={SS5}>
-                        <img alt="Eraser" src={SS5} />
+                        <img alt="Eraser" loading="lazy" src={SS5} />
                       </a>
                       <a href={SS6}>
-                        <img alt="Environment" src={SS6} />
+                        <img alt="Environment" loading="lazy" src={SS6} />
                       </a>
                       <a
                         data-src="https://vimeo.com/858012693"
                         data-sub-html="<h4>AR Whiteboard</h4>"
                       >
-                        <img src={VideoThumb} alt="Click here to play video" />
+                        <img
+                          src={VideoThumb}
+                          loading="lazy"
+                          alt="Click here to play video"
+                        />
                       </a>
                     </LightGallery>
                   </div>

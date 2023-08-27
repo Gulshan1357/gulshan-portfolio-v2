@@ -1,21 +1,26 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import App from "./App";
-import ProjectDetails from "./ProjectDetail/ProjectDetails";
+import LoadingPageAnimation from "./LoadingAnimation/LoadingPage";
+
+const ProjectDetails = lazy(() => import("./ProjectDetail/ProjectDetails"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route
-          path="/projectDetails/:projectName"
-          element={<ProjectDetails />}
-        />
-        <Route path="/" element={<App />} />
-      </Routes>
+      <Suspense fallback={<LoadingPageAnimation />}>
+        <Routes>
+          <Route
+            path="/projectDetails/:projectName"
+            element={<ProjectDetails />}
+          />
+          <Route path="/" element={<App />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   </React.StrictMode>,
 );

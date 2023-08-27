@@ -27,7 +27,7 @@ const StudyBuddyApp = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBG} alt="Background GIF" />
+        <img src={MainBG} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>Study Buddy App</h1>
@@ -120,32 +120,45 @@ const StudyBuddyApp = () => {
                       }
                     >
                       <a href={SS1}>
-                        <img alt="Home Page" src={SS1} />
+                        <img alt="Home Page" loading="lazy" src={SS1} />
                       </a>
                       <a href={SS2}>
-                        <img alt="Sign-up Page" src={SS2} />
+                        <img alt="Sign-up Page" loading="lazy" src={SS2} />
                       </a>
                       <a href={SS3}>
-                        <img alt="Sign-in Page" src={SS3} />
+                        <img alt="Sign-in Page" loading="lazy" src={SS3} />
                       </a>
                       <a href={SS4}>
-                        <img alt="Profile Page" src={SS4} />
+                        <img alt="Profile Page" loading="lazy" src={SS4} />
                       </a>
                       <a href={SS5}>
-                        <img alt="Edit Profile Page" src={SS5} />
+                        <img alt="Edit Profile Page" loading="lazy" src={SS5} />
                       </a>
                       <a href={SS6}>
-                        <img alt="Schedule Studdy Session Page 1" src={SS6} />
+                        <img
+                          alt="Schedule Studdy Session Page 1"
+                          loading="lazy"
+                          src={SS6}
+                        />
                       </a>
                       <a href={SS7}>
-                        <img alt="Schedule Studdy Session Page 2" src={SS7} />
+                        <img
+                          alt="Schedule Studdy Session Page 2"
+                          loading="lazy"
+                          src={SS7}
+                        />
                       </a>
                       <a href={SS8}>
-                        <img alt="Schedule Studdy Session Page 3" src={SS8} />
+                        <img
+                          alt="Schedule Studdy Session Page 3"
+                          loading="lazy"
+                          src={SS8}
+                        />
                       </a>
                       <a href={SS9}>
                         <img
                           alt="Meeting Details and Chat Room Page"
+                          loading="lazy"
                           src={SS9}
                         />
                       </a>

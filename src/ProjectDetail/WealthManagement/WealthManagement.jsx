@@ -21,7 +21,7 @@ const WealthManagement = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={HeroSS} alt="Background GIF" />
+        <img src={HeroSS} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>Wealth Management</h1>
@@ -127,14 +127,19 @@ const WealthManagement = () => {
                       }
                     >
                       <a href={WelcomeAnim}>
-                        <img alt="Welcome Animation" src={WelcomeAnim} />
+                        <img
+                          alt="Welcome Animation"
+                          loading="lazy"
+                          src={WelcomeAnim}
+                        />
                       </a>
                       <a href={SimpleM}>
-                        <img alt="Simple Mode" src={SimpleM} />
+                        <img alt="Simple Mode" loading="lazy" src={SimpleM} />
                       </a>
                       <a href={InDepthM}>
                         <img
                           alt="In-Depth Mode (Graph data removed)"
+                          loading="lazy"
                           src={InDepthM}
                         />
                       </a>

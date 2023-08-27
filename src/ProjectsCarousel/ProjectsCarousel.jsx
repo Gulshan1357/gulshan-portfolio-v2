@@ -46,7 +46,7 @@ const ProjectsCarousel = () => {
                 <Link
                   to={`/projectDetails/${project.name.replace(/\s+/g, "")}`}
                 >
-                  <img src={project.peek} alt="img" />
+                  <img loading="lazy" src={project.peek} alt="img" />
                 </Link>
                 <h3>{project.name}</h3>
                 <div className="tags">

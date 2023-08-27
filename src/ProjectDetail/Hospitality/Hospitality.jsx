@@ -24,7 +24,7 @@ const Hospitality = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBG} alt="Background as Home Page" />
+        <img src={MainBG} loading="lazy" alt="Background as Home Page" />
         <div className="container">
           <div className="main-content">
             <h1>ONGC Hospitality</h1>
@@ -118,19 +118,19 @@ const Hospitality = () => {
                       }
                     >
                       <a href={SS1}>
-                        <img alt="Login Page" src={SS1} />
+                        <img alt="Login Page" loading="lazy" src={SS1} />
                       </a>
                       <a href={SS2}>
-                        <img alt="Home Page" src={SS2} />
+                        <img alt="Home Page" loading="lazy" src={SS2} />
                       </a>
                       <a href={SS3}>
-                        <img alt="Fill-Form Part 1" src={SS3} />
+                        <img alt="Fill-Form Part 1" loading="lazy" src={SS3} />
                       </a>
                       <a href={SS4}>
-                        <img alt="Fill-Form Part 2" src={SS4} />
+                        <img alt="Fill-Form Part 2" loading="lazy" src={SS4} />
                       </a>
                       <a href={SS5}>
-                        <img alt="My Forms Page" src={SS5} />
+                        <img alt="My Forms Page" loading="lazy" src={SS5} />
                       </a>
                     </LightGallery>
                   </div>

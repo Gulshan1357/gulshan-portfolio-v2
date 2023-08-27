@@ -38,6 +38,7 @@ const Hero = () => {
       <div className="hero-image">
         <img
           src={heroImage}
+          loading="lazy"
           alt="Gulshan's head shot modified using Stable Diffusion AI"
         />
       </div>
