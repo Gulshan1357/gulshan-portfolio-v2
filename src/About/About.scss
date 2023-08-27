@@ -2,6 +2,8 @@
 
 .aboutMe {
   // background: $gradient-dark;
+  z-index: 2;
+  position: relative;
   background: linear-gradient(
     to top,
     $secondary-black-dark,

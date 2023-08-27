@@ -1,6 +1,12 @@
 @import "src/_variables.scss";
 
-.main {
+#tsparticles {
+  canvas {
+    position: absolute;
+  }
+}
+
+.grid-container {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -17,7 +23,10 @@
 .hero-image {
   order: 1;
   margin: 0 auto;
+  position: relative;
+  pointer-events: none;
   img {
+    pointer-events: none;
     filter: brightness(80%) contrast(90%)
       drop-shadow(0px 0px 50px rgba(126, 59, 150, 0.5));
   }
@@ -63,7 +72,7 @@
 }
 
 @media screen and (min-width: 500px) {
-  .main {
+  .grid-container {
     display: grid;
     grid-auto-columns: 1fr 1fr;
     padding-top: 0;
