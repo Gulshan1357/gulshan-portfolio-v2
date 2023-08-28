@@ -19,7 +19,7 @@ const ARTranscriptionandTranslation = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={V3} loading="lazy" alt="Background GIF" />
+        <img src={V3} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>AR Transcription and Translation</h1>

@@ -20,14 +20,14 @@ import SS5 from "./Assets/5.png";
 import SS6 from "./Assets/6.png";
 import SS7 from "./Assets/7.png";
 import SS8 from "./Assets/8.png";
-import { default as MainBG, default as SS9 } from "./Assets/9.png";
+import SS9 from "./Assets/9.png";
 
 const StudyBuddyApp = () => {
   return (
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBG} loading="lazy" alt="Background GIF" />
+        <img src={SS9} loading="lazy" alt="Background GIF" />
         <div className="container">
           <div className="main-content">
             <h1>Study Buddy App</h1>

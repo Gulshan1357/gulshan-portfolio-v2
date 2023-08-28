@@ -22,7 +22,7 @@ const MyFirstPortfolioWebsite = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBg} loading="lazy" alt="Background GIF" />
+        <img src={MainBg} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>My First Portfolio Website</h1>

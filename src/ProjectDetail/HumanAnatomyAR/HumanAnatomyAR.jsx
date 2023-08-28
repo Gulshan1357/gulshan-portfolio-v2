@@ -23,7 +23,7 @@ const HumanAnatomyAR = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={SS5} loading="lazy" alt="Background GIF" />
+        <img src={SS5} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>Human Anatomy AR</h1>

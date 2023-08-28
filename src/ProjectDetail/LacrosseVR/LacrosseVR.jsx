@@ -128,7 +128,7 @@ const LacrosseVR = () => {
                         <img
                           src={VideoThumb}
                           loading="lazy"
-                          alt="Click here to play video"
+                          alt="Video thumbnail"
                         />
                       </a>
                     </LightGallery>

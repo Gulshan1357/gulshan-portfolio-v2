@@ -25,7 +25,7 @@ const CurrentPortfolioWebsite = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={HeroBG} loading="lazy" alt="Background GIF" />
+        <img src={HeroBG} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>Current Portfolio</h1>

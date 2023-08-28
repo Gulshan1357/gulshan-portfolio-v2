@@ -24,7 +24,7 @@ const Hospitality = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBG} loading="lazy" alt="Background as Home Page" />
+        <img src={MainBG} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>ONGC Hospitality</h1>

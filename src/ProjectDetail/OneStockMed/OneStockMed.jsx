@@ -25,7 +25,7 @@ const OneStockMed = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={MainBG} loading="lazy" alt="Background GIF" />
+        <img src={MainBG} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>OneStockMed</h1>

@@ -11,7 +11,7 @@ const FloorcanInsights = () => {
     <div>
       <main className="project-main">
         <div className="overlay"></div>
-        <img src={HeroImage} loading="lazy" alt="Background GIF" />
+        <img src={HeroImage} loading="lazy" alt="Background Screenshot" />
         <div className="container">
           <div className="main-content">
             <h1>Floorcan Insights</h1>
