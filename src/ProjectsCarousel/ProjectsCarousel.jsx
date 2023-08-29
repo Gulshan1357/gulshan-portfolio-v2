@@ -8,7 +8,38 @@ import useProjectFilter from "./useProjectFilter";
 
 const ProjectsCarousel = () => {
   const [tag, setTag] = useState();
+  const [activeBtn, setActiveBtn] = useState("btnAll");
   const [projectList] = useProjectFilter(tag);
+
+  const handleBtnClick = (event) => {
+    switch (event.target.id) {
+      case "btnAll": {
+        setTag("All");
+        setActiveBtn(event.target.id);
+        break;
+      }
+      case "btnFrontEnd": {
+        setTag("Front-End");
+        setActiveBtn(event.target.id);
+        break;
+      }
+      case "btnXR": {
+        setTag("XR");
+        setActiveBtn(event.target.id);
+        break;
+      }
+      case "btnDesign": {
+        setTag("Design");
+        setActiveBtn(event.target.id);
+        break;
+      }
+      default: {
+        setTag("All");
+        setActiveBtn("btnAll");
+        break;
+      }
+    }
+  };
 
   return (
     <article id="projects" className="projects">
@@ -16,16 +47,32 @@ const ProjectsCarousel = () => {
         <h1 className="faded-heading">PROJECTS</h1>
         <div className="content-offset">
           <div className="filters">
-            <button className="btn" onClick={() => setTag("All")}>
+            <button
+              className={activeBtn === "btnAll" ? "btn btn-active" : "btn"}
+              id="btnAll"
+              onClick={handleBtnClick}
+            >
               All
             </button>
-            <button className="btn" onClick={() => setTag("Front-End")}>
+            <button
+              className={activeBtn === "btnFrontEnd" ? "btn btn-active" : "btn"}
+              id="btnFrontEnd"
+              onClick={handleBtnClick}
+            >
               Front-End
             </button>
-            <button className="btn" onClick={() => setTag("XR")}>
+            <button
+              className={activeBtn === "btnXR" ? "btn btn-active" : "btn"}
+              id="btnXR"
+              onClick={handleBtnClick}
+            >
               XR
             </button>
-            <button className="btn" onClick={() => setTag("Design")}>
+            <button
+              className={activeBtn === "btnDesign" ? "btn btn-active" : "btn"}
+              id="btnDesign"
+              onClick={handleBtnClick}
+            >
               Design
             </button>
           </div>
