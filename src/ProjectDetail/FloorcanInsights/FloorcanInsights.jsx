@@ -107,7 +107,7 @@ const FloorcanInsights = () => {
             <div className="btns">
               <a target="_blank" rel="noopener noreferrer" href="/">
                 <button className="btn" disabled>
-                  Live Link unavailable due to privacy concerns
+                  Live Link unavailable due to client privacy considerations
                 </button>
               </a>
             </div>

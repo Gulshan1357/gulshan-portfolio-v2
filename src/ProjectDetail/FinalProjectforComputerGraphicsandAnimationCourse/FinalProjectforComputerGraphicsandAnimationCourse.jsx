@@ -114,29 +114,22 @@ const FinalProjectforComputerGraphicsandAnimationCourse = () => {
                       <a href={Demo1}>
                         <img
                           loading="lazy"
-                          alt="Final Portfolio's Home Page"
+                          alt="Player Controls and Animations"
                           src={Demo1}
                         />
                       </a>
                       <a href={Demo2}>
-                        <img
-                          alt="Final Portfolio's ProjectDetails Page"
-                          loading="lazy"
-                          src={Demo2}
-                        />
+                        <img alt=" Player Halo" loading="lazy" src={Demo2} />
                       </a>
                       <a href={Demo4}>
                         <img
-                          alt="Final Portfolio's ProjectDetails Page"
+                          alt="Death Holes and GameOver Screen"
                           loading="lazy"
                           src={Demo4}
                         />
                       </a>
                       <a href={Demo6}>
-                        <img
-                          alt="Final Portfolio's ProjectDetails Page"
-                          src={Demo6}
-                        />
+                        <img alt="Enemies and Waterwaves" src={Demo6} />
                       </a>
                       <a
                         data-src="https://vimeo.com/857297919"
