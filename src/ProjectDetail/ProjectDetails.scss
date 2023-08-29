@@ -5,7 +5,7 @@
 }
 
 .project-main {
-  height: 100vh;
+  min-height: 100vh;
 
   .overlay {
     position: absolute;
@@ -23,16 +23,16 @@
     z-index: -2;
   }
   > .container {
-    height: 100%;
+    min-height: 100vh;
   }
   .main-content {
-    height: 100%;
+    min-height: 100vh;
     display: grid;
     grid-template-areas:
       "head1 head1 head1"
       "head2 head2 head2"
       "headBtm headBtm headBtm";
-    grid-template-rows: 1fr 1fr 8rem;
+    grid-template-rows: 1fr 20vh 6rem;
     > h1 {
       grid-area: head1;
       position: relative;
@@ -55,9 +55,8 @@
       // text-shadow: 0px 4px 30px $primary-purple;
       // -webkit-text-stroke: 0.01px $primary-grey;
       color: $primary-orange;
-      // text-shadow: 0px 4px 30px rgba(0, 0, 0, 1);
       text-shadow: 0px 4px 64px $primary-grey;
-      opacity: 0.8;
+      opacity: 1;
       -webkit-text-stroke: 0.5px black;
     }
     > .main-footer {
@@ -212,13 +211,11 @@
 @media screen and (min-width: 500px) {
   .project-main {
     .main-content {
-      grid-template-rows: 1fr 1fr 5rem;
       > .main-footer {
         flex-direction: row;
         justify-content: space-between;
       }
       .main-footer-content + .main-footer-content {
-        // border: 2px solid red;
         margin-left: 0.6rem;
       }
       .main-footer-content {
