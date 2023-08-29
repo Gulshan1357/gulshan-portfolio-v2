@@ -9,7 +9,9 @@ const Navigation = ({ isModified = false }) => {
   const [isOpen, setOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const navigate = useNavigate();
+
   const handleClick = () => navigate(-1);
+  const closeMenuOnClick = () => setOpen(false);
 
   useEffect(() => {
     const changeWidth = () => {
@@ -38,6 +40,7 @@ const Navigation = ({ isModified = false }) => {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    onClick={closeMenuOnClick}
                   >
                     Contact
                   </Link>
@@ -67,6 +70,7 @@ const Navigation = ({ isModified = false }) => {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={closeMenuOnClick}
                 >
                   About
                 </Link>
@@ -79,6 +83,7 @@ const Navigation = ({ isModified = false }) => {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={closeMenuOnClick}
                 >
                   Projects
                 </Link>
@@ -91,6 +96,7 @@ const Navigation = ({ isModified = false }) => {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  onClick={closeMenuOnClick}
                 >
                   Contact
                 </Link>
