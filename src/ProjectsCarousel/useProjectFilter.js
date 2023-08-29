@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PeekTT from "../ProjectDetail/ARTranscriptionandTranslation/Assets/V3.png";
 import PeekCPW from "../ProjectDetail/CurrentPortfolioWebsite/Assets/Peek.png";
 import Peek6CG3 from "../ProjectDetail/FinalProjectforComputerGraphicsandAnimationCourse/Assets/Peek.png";
-import PeekFI from "../ProjectDetail/FloorcanInsights/Assets/unavailable-image.jpg";
+import PeekFI from "../ProjectDetail/FloorcanInsights/Assets/censored-1726364.jpg";
 import PeekHos from "../ProjectDetail/Hospitality/Assets/Peek.jpg";
 import PeekHA from "../ProjectDetail/HumanAnatomyAR/Assets/Peek.png";
 import PeekLVR from "../ProjectDetail/LacrosseVR/Assets/Peek.png";
@@ -10,7 +10,7 @@ import PeekMFP from "../ProjectDetail/MyFirstPortfolioWebsite/Assets/Peek.png";
 import PeekOSM from "../ProjectDetail/OneStockMed/Assets/Peek.png";
 import PeekPMT from "../ProjectDetail/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/Assets/Peek.png";
 import PeekSB from "../ProjectDetail/StudyBuddyApp/Assets/Peek.png";
-import PeekTC from "../ProjectDetail/TelePresence/Assets/unavailable-image.jpg";
+import PeekTC from "../ProjectDetail/TelePresence/Assets/censored-1726364.jpg";
 import PeekWB from "../ProjectDetail/VRWhiteboardApp/Assets/Peek.png";
 import PeekWM from "../ProjectDetail/WealthManagement/Assets/Peek.gif";
 
