@@ -99,7 +99,12 @@ const ProjectsCarousel = () => {
                     alt="Project's peak shot"
                   />
                 </Link>
-                <h3>{project.name}</h3>
+                <Link
+                  to={`/projectDetails/${project.name.replace(/\s+/g, "")}`}
+                >
+                  <h3>{project.name}</h3>
+                </Link>
+
                 <div className="tags">
                   {project.tags.map((tag) => (
                     <div className="tag" key={tag}>
