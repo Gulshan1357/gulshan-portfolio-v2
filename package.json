@@ -6,7 +6,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx, tx, tsx}\"",
     "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
     "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
-    "dev": "vite --port 3000 --open",
+    "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "test": "vitest"
