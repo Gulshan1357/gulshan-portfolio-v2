@@ -100,6 +100,7 @@
 .container-full {
   p {
     font-size: clamp(1rem, 2vw, 1.3rem);
+    text-align: justify;
   }
   .large-li {
     font-size: clamp(1rem, 2vw, 1.3rem);
