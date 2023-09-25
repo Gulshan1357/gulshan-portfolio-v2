@@ -93,167 +93,164 @@ const CurrentPortfolioWebsite = () => {
         </div>
       </article>
 
-      <section className="development">
-        <article className="container-half dev-phase">
-          <div className="container">
-            <h1 className="faded-heading">Colors</h1>
-            <div className="content-offset">
-              <div className="half-cols">
-                <div className="left-half">
-                  <p>
-                    Why did I opt for these particular colors? Frankly, I
-                    derived inspiration for these hues from an image I created
-                    using the Stable Diffusion model. This very image takes
-                    center stage as the main hero image on the homepage. My
-                    intention was to establish a harmonious connection between
-                    the website&apos;s color palette and the tones found within
-                    that image.
-                  </p>
-                </div>
-                <div className="right-half">
-                  <div className="right-half-colors">
-                    <div
-                      style={{ backgroundColor: "#7e3b96" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "#EF7A44" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "rgba(239, 240, 240, 0.80)" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "#616767" }}
-                      className="right-half-color"
-                    />
-                    <div
-                      style={{ backgroundColor: "#0A1111" }}
-                      className="right-half-color"
-                    />
-                  </div>
+      <article className="container-half dev-phase">
+        <div className="container">
+          <h1 className="faded-heading">Colors</h1>
+          <div className="content-offset">
+            <div className="half-cols">
+              <div className="left-half">
+                <p>
+                  Why did I opt for these particular colors? Frankly, I derived
+                  inspiration for these hues from an image I created using the
+                  Stable Diffusion model. This very image takes center stage as
+                  the main hero image on the homepage. My intention was to
+                  establish a harmonious connection between the website&apos;s
+                  color palette and the tones found within that image.
+                </p>
+              </div>
+              <div className="right-half">
+                <div className="right-half-colors">
+                  <div
+                    style={{ backgroundColor: "#7e3b96" }}
+                    className="right-half-color"
+                  />
+                  <div
+                    style={{ backgroundColor: "#EF7A44" }}
+                    className="right-half-color"
+                  />
+                  <div
+                    style={{ backgroundColor: "rgba(239, 240, 240, 0.80)" }}
+                    className="right-half-color"
+                  />
+                  <div
+                    style={{ backgroundColor: "#616767" }}
+                    className="right-half-color"
+                  />
+                  <div
+                    style={{ backgroundColor: "#0A1111" }}
+                    className="right-half-color"
+                  />
                 </div>
               </div>
             </div>
           </div>
-        </article>
+        </div>
+      </article>
 
-        <article className="container-half dev-phase">
-          <div className="container">
-            <h1 className="faded-heading">Design</h1>
-            <div className="content-offset">
-              <div className="half-cols">
-                <div className="left-half">
-                  <p>
-                    Using <span className="highlight">Figma</span>, I crafted
-                    both low-fidelity and high-fidelity wireframes for the
-                    envisioned portfolio. Drawing inspiration from the layout of
-                    some of the most prominent developer portfolios, I strived
-                    to capture the essence of their structuring while infusing
-                    my unique touch into the design.
-                  </p>
-                </div>
-                <div className="right-half">
-                  <div className="right-half-images">
-                    <LightGallery
-                      speed={500}
-                      plugins={[lgZoom, lgFullscreen, lgAutoplay, lgVideo]}
-                      enableThumbSwipe={true}
-                      loadYouTubeThumbnail={true}
-                      licenseKey={
-                        import.meta.env.MODE === "development"
-                          ? "x"
-                          : import.meta.env.LIGHTGALLERY_LICENCE
-                      }
-                    >
-                      <a href={HomeLo}>
-                        <img
-                          loading="lazy"
-                          alt="Home Page Low Fidelity"
-                          src={HomeLo}
-                        />
-                      </a>
-                      <a href={ProjectLo}>
-                        <img
-                          alt="ProjectDetails Page Low Fidelity"
-                          loading="lazy"
-                          src={ProjectLo}
-                        />
-                      </a>
-                      <a href={HomeHi}>
-                        <img
-                          alt="Home Page High Fidelity"
-                          loading="lazy"
-                          src={HomeHi}
-                        />
-                      </a>
+      <article className="container-half dev-phase">
+        <div className="container">
+          <h1 className="faded-heading">Design</h1>
+          <div className="content-offset">
+            <div className="half-cols">
+              <div className="left-half">
+                <p>
+                  Using <span className="highlight">Figma</span>, I crafted both
+                  low-fidelity and high-fidelity wireframes for the envisioned
+                  portfolio. Drawing inspiration from the layout of some of the
+                  most prominent developer portfolios, I strived to capture the
+                  essence of their structuring while infusing my unique touch
+                  into the design.
+                </p>
+              </div>
+              <div className="right-half">
+                <div className="right-half-images">
+                  <LightGallery
+                    speed={500}
+                    plugins={[lgZoom, lgFullscreen, lgAutoplay, lgVideo]}
+                    enableThumbSwipe={true}
+                    loadYouTubeThumbnail={true}
+                    licenseKey={
+                      import.meta.env.MODE === "development"
+                        ? "x"
+                        : import.meta.env.LIGHTGALLERY_LICENCE
+                    }
+                  >
+                    <a href={HomeLo}>
+                      <img
+                        loading="lazy"
+                        alt="Home Page Low Fidelity"
+                        src={HomeLo}
+                      />
+                    </a>
+                    <a href={ProjectLo}>
+                      <img
+                        alt="ProjectDetails Page Low Fidelity"
+                        loading="lazy"
+                        src={ProjectLo}
+                      />
+                    </a>
+                    <a href={HomeHi}>
+                      <img
+                        alt="Home Page High Fidelity"
+                        loading="lazy"
+                        src={HomeHi}
+                      />
+                    </a>
 
-                      <a href={ProjectHi}>
-                        <img
-                          alt="ProjectDetails Page High Fidelity"
-                          loading="lazy"
-                          src={ProjectHi}
-                        />
-                      </a>
-                    </LightGallery>
-                  </div>
+                    <a href={ProjectHi}>
+                      <img
+                        alt="ProjectDetails Page High Fidelity"
+                        loading="lazy"
+                        src={ProjectHi}
+                      />
+                    </a>
+                  </LightGallery>
                 </div>
               </div>
             </div>
           </div>
-        </article>
-        <article className="container-half dev-phase">
-          <div className="container">
-            <h1 className="faded-heading">&lt;Dev&gt;</h1>
-            <div className="content-offset">
-              <div className="half-cols">
-                <div className="left-half">
-                  <p>
-                    I evaluated three potential avenues for developing this
-                    website. While WebFlow and Framer offered impressive
-                    development speed, I ultimately settled on
-                    <span className="highlight"> React</span>. This choice
-                    stemmed from my desire to establish a more robust and
-                    descriptive &quot;Projects&quot; section and enhance the
-                    overall project viewing experience for users.
-                  </p>
-                </div>
-                <div className="right-half">
-                  <div className="right-half-images">
-                    <LightGallery
-                      speed={500}
-                      plugins={[lgZoom, lgFullscreen, lgAutoplay, lgVideo]}
-                      enableThumbSwipe={true}
-                      loadYouTubeThumbnail={true}
-                      licenseKey={
-                        import.meta.env.MODE === "development"
-                          ? "x"
-                          : import.meta.env.LIGHTGALLERY_LICENCE
-                      }
-                    >
-                      <a href={GPort1}>
-                        <img
-                          alt="Final Portfolio's Home Page"
-                          loading="lazy"
-                          src={GPort1}
-                        />
-                      </a>
-                      <a href={GPort2}>
-                        <img
-                          alt="Final Portfolio's ProjectDetails Page"
-                          loading="lazy"
-                          src={GPort2}
-                        />
-                      </a>
-                    </LightGallery>
-                  </div>
+        </div>
+      </article>
+      <article className="container-half dev-phase">
+        <div className="container">
+          <h1 className="faded-heading">&lt;Dev&gt;</h1>
+          <div className="content-offset">
+            <div className="half-cols">
+              <div className="left-half">
+                <p>
+                  I evaluated three potential avenues for developing this
+                  website. While WebFlow and Framer offered impressive
+                  development speed, I ultimately settled on
+                  <span className="highlight"> React</span>. This choice stemmed
+                  from my desire to establish a more robust and descriptive
+                  &quot;Projects&quot; section and enhance the overall project
+                  viewing experience for users.
+                </p>
+              </div>
+              <div className="right-half">
+                <div className="right-half-images">
+                  <LightGallery
+                    speed={500}
+                    plugins={[lgZoom, lgFullscreen, lgAutoplay, lgVideo]}
+                    enableThumbSwipe={true}
+                    loadYouTubeThumbnail={true}
+                    licenseKey={
+                      import.meta.env.MODE === "development"
+                        ? "x"
+                        : import.meta.env.LIGHTGALLERY_LICENCE
+                    }
+                  >
+                    <a href={GPort1}>
+                      <img
+                        alt="Final Portfolio's Home Page"
+                        loading="lazy"
+                        src={GPort1}
+                      />
+                    </a>
+                    <a href={GPort2}>
+                      <img
+                        alt="Final Portfolio's ProjectDetails Page"
+                        loading="lazy"
+                        src={GPort2}
+                      />
+                    </a>
+                  </LightGallery>
                 </div>
               </div>
             </div>
           </div>
-        </article>
-      </section>
+        </div>
+      </article>
 
       <section className="container-full">
         <div className="container">

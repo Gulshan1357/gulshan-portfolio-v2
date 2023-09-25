@@ -1,10 +1,22 @@
+import LightGallery from "lightgallery/react";
+
 import "lightgallery/scss/lg-autoplay.scss";
 import "lightgallery/scss/lg-fullscreen.scss";
 import "lightgallery/scss/lg-video.scss";
 import "lightgallery/scss/lg-zoom.scss";
 import "lightgallery/scss/lightgallery.scss";
 
-import HeroImage from "./Assets/unavailable-image.jpg";
+import lgAutoplay from "lightgallery/plugins/autoplay";
+import lgFullscreen from "lightgallery/plugins/fullscreen";
+import lgVideo from "lightgallery/plugins/video";
+import lgZoom from "lightgallery/plugins/zoom";
+
+import HeroImage from "./Assets/SS1.png";
+
+import SS2 from "./Assets/SS1.png";
+import SS1 from "./Assets/SS2.png";
+import SS3 from "./Assets/SS3.png";
+import SS4 from "./Assets/SS4.png";
 
 const FloorcanInsights = () => {
   return (
@@ -48,25 +60,6 @@ const FloorcanInsights = () => {
               primary responsibility involved conceiving and executing the User
               Interface (UI) transformation.
             </p>
-            <br />
-            <p>
-              Beginning with the design phase, I leveraged Figma to craft the
-              UI, meticulously sculpting a visual identity with RBC&apos;s
-              design guide. After the design was finalized, I transitioned to
-              the development phase. Implementing the UI in React, I employed
-              CSS to bring the design to life, ensuring a seamless and intuitive
-              user experience.
-            </p>
-            <br />
-            <p>
-              As the project involved sensitive client data, regrettably,
-              I&apos;m
-              <span className="highlight">
-                {" "}
-                unable to share any visuals or images{" "}
-              </span>
-              .
-            </p>
           </div>
         </div>
       </section>
@@ -93,6 +86,54 @@ const FloorcanInsights = () => {
                     <li className="large-li">JavaScript</li>
                     <li className="large-li">React</li>
                   </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article className="container-half dev-phase">
+        <div className="container">
+          <h1 className="faded-heading">&lt;Dev&gt;</h1>
+          <div className="content-offset">
+            <div className="half-cols">
+              <div className="left-half">
+                <p>
+                  Beginning with the design phase, I leveraged Figma to craft
+                  the UI, meticulously sculpting a visual identity with
+                  RBC&apos;s design guide. After the design was finalized, I
+                  transitioned to the development phase. Implementing the UI in
+                  React, I employed CSS to bring the design to life, ensuring a
+                  seamless and intuitive user experience.
+                </p>
+              </div>
+              <div className="right-half">
+                <div className="right-half-images">
+                  <LightGallery
+                    speed={500}
+                    plugins={[lgZoom, lgFullscreen, lgAutoplay, lgVideo]}
+                    enableThumbSwipe={true}
+                    loadYouTubeThumbnail={true}
+                    licenseKey={
+                      import.meta.env.MODE === "development"
+                        ? "x"
+                        : import.meta.env.LIGHTGALLERY_LICENCE
+                    }
+                  >
+                    <a href={SS1}>
+                      <img alt="ScreenShot 1" loading="lazy" src={SS1} />
+                    </a>
+                    <a href={SS2}>
+                      <img alt="ScreenShot 2" loading="lazy" src={SS2} />
+                    </a>
+                    <a href={SS3}>
+                      <img alt="ScreenShot 3" loading="lazy" src={SS3} />
+                    </a>
+                    <a href={SS4}>
+                      <img alt="ScreenShot 4" loading="lazy" src={SS4} />
+                    </a>
+                  </LightGallery>
                 </div>
               </div>
             </div>

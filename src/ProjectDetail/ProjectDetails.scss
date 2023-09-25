@@ -140,11 +140,11 @@
 }
 .container-half:nth-child(odd) {
   background: linear-gradient(
-    to right,
-    $secondary-black-dark,
-    $secondary-black-dark,
+    to left,
     $secondary-black-light,
-    $secondary-black-light
+    $secondary-black-light,
+    $secondary-black-dark,
+    $secondary-black-dark
   );
 }
 
@@ -194,7 +194,7 @@
     }
 
     .right-half-images {
-      min-height: 70vh;
+      // min-height: 70vh;
       text-align: center;
       a {
         margin-right: min(2vw, 1rem);
@@ -261,6 +261,7 @@
 
         .right-half-images {
           text-align: center;
+          min-height: auto;
           img,
           video {
             width: clamp(2rem, 20vw, 15rem);
