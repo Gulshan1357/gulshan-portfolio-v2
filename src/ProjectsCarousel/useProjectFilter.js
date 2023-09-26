@@ -10,7 +10,7 @@ import PeekMFP from "../ProjectDetail/MyFirstPortfolioWebsite/Assets/Peek.png";
 import PeekOSM from "../ProjectDetail/OneStockMed/Assets/Peek.png";
 import PeekPMT from "../ProjectDetail/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/Assets/Peek.png";
 import PeekSB from "../ProjectDetail/StudyBuddyApp/Assets/Peek.png";
-import PeekTC from "../ProjectDetail/TelePresence/Assets/censored-1726364.jpg";
+// import PeekTC from "../ProjectDetail/TelePresence/Assets/censored-1726364.jpg";
 import PeekWB from "../ProjectDetail/VRWhiteboardApp/Assets/Peek.png";
 import PeekWM from "../ProjectDetail/WealthManagement/Assets/Peek.gif";
 
