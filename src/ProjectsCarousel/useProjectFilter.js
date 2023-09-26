@@ -39,12 +39,12 @@ const projectData = [
     tags: ["UI", "Front-End", "React", "JavaScript", "Figma"],
     peek: PeekFI,
   },
-  {
-    name: "TelePresence",
-    period: "Early 2023",
-    tags: ["Front-End", "Full-Stack", "React", "JavaScript"],
-    peek: PeekTC,
-  },
+  // {
+  //   name: "TelePresence",
+  //   period: "Early 2023",
+  //   tags: ["Front-End", "Full-Stack", "React", "JavaScript"],
+  //   peek: PeekTC,
+  // },
   {
     name: "Wealth Management",
     period: "Late 2022 and Early 2023",
