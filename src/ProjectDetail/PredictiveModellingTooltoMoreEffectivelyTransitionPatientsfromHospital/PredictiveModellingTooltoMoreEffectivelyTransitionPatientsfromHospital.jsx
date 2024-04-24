@@ -132,7 +132,7 @@ const PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital =
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://docs.google.com/presentation/d/1I9sdluconem0y8Ru0k0bQQbsndsdkwQJRHLYrJc6E9Y/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1PHoGi_c5Xw1aC0u5m6jhFXPekuXgeiN6/view?usp=sharing"
                 >
                   <button className="btn">
                     Project Presentation
@@ -142,7 +142,7 @@ const PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital =
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://docs.google.com/presentation/d/1Z7zn27QIQoojsEetS_LAPrJ5_RgdaVYx/edit?usp=sharing&ouid=110051292061250698391&rtpof=true&sd=true"
+                  href="https://drive.google.com/file/d/1QjLhfHbOvA5nUHDhm5pwMunySbWONzAx/view?usp=sharing"
                 >
                   <button className="btn">
                     Project Poster
