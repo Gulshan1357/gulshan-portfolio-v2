@@ -33,9 +33,7 @@ const MyFirstPortfolioWebsite = lazy(() =>
 );
 const OneStockMed = lazy(() => import("./OneStockMed/OneStockMed"));
 const Predictive = lazy(() =>
-  import(
-    "./PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital/PredictiveModellingTooltoMoreEffectivelyTransitionPatientsfromHospital"
-  ),
+  import("./PredictiveModellingTool/PredictiveModellingTool"),
 );
 const StudyBuddyApp = lazy(() => import("./StudyBuddyApp/StudyBuddyApp"));
 const TelePresence = lazy(() => import("./TelePresence/TelePresence"));
