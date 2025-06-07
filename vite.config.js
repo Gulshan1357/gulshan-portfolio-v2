@@ -8,5 +8,4 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/setupTests.js'],
   },
-  base: "/gulshan-portfolio-v2"
 });
