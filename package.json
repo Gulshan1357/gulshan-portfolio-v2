@@ -1,5 +1,6 @@
 {
-  "name": "vite-template-react",
+  "name": "gulshan-portfolio-v2",
+  "home": "https://Gulshan1357.github.io/gulshan-portfolio-v2/",
   "version": "1.4.0",
   "scripts": {
     "start": "vite --no-open",
@@ -9,11 +10,14 @@
     "dev": "vite --no-open",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@egjs/react-flicking": "^4.11.0",
     "dotenv": "^16.3.1",
+    "gh-pages": "^6.3.0",
     "hamburger-react": "^2.5.0",
     "lightgallery": "^2.7.1",
     "react": "^18.2.0",
